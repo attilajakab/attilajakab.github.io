@@ -5,11 +5,9 @@
     --marker-pink: #e5919e;
 }
 
-.color1 {color: #a65a8f;}
-.color2 {color: #c26d92;}
-.color3 {color: #e5919e;}
+/* .color1 {color: #a65a8f;}
 .color4 {color: #f8bab3;}
-.color5 {color: #f8cfbd;}
+.color5 {color: #f8cfbd;} */
 
 .container {
     max-width: 960px;
@@ -139,4 +137,36 @@ nav a:not(:first-child):hover:after {
     background: var(--bs-body-color);;
     color: var(--white);
     padding: 10px 12px;
+}
+
+/* Image overlay */
+.dark-overlay-container {
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, .2);
+    transition: all .3s ease-in;
+}
+
+.about-img-container img {
+    box-shadow: none;
+    transition: all .3s ease-in;
+}
+
+.about-img-container:hover .dark-overlay {
+    transform: scale(1.03);
+    background-color: rgba(0, 0, 0, .0);
+}
+
+.about-img-container:hover img {
+    transform: scale(1.03);
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 768px) {
+    .dark-overlay {
+        display: none;
+    }
 }
