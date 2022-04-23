@@ -1,0 +1,142 @@
+:root {
+    --white: #fff;
+    --sugar-milk: #FFF7F5;
+    --berry-patch: #c26d92;
+    --marker-pink: #e5919e;
+}
+
+.color1 {color: #a65a8f;}
+.color2 {color: #c26d92;}
+.color3 {color: #e5919e;}
+.color4 {color: #f8bab3;}
+.color5 {color: #f8cfbd;}
+
+.container {
+    max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+.site-header {
+    padding-top: 0.45rem!important;
+    padding-bottom: 0;
+}
+
+.site-header a {
+    color: var(--bs-body-color);;
+    transition: all .15s ease-in-out;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('./assets/hero-bg-1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+    flex: 1;
+}
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+    }
+}
+
+/* Navigation stroke effect */
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+  nav a,
+  nav a:after,
+  nav a:before {
+    transition: all .5s;
+  }
+
+nav a {
+  position: relative;
+}
+
+nav a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+nav a:not(:first-child):hover:after {
+  width: 100%;
+}
+
+/* Card */
+.card-body > button {
+    position: absolute;
+    bottom: 1rem;
+    width: calc(100% - 2rem) !important;
+}
+
+/* Custom buttons */
+.btn-berry-patch {
+    color: var(--white);
+    background-color: var(--berry-patch);
+    border-color: var(--berry-patch);
+}
+
+.btn-berry-patch:hover {
+    color: var(--white);
+    background-color: var(--marker-pink);
+    border-color: var(--marker-pink);
+}
+
+.btn-hover-berry-patch:hover {
+    color: var(--white);
+    background-color: var(--berry-patch);
+    border-color: var(--berry-patch);
+}
+
+/* Order form */
+.order-form-container {
+    background-color: var(--sugar-milk);
+}
+
+/* Social media icons */
+.fa {
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.fa:hover {
+    background: var(--white);
+    color: var(--bs-body-color);
+}
+
+.fa-facebook {
+    font-size: 15px;
+    padding: 10px 14px;
+    background: var(--bs-body-color);;
+    color: var(--white);
+}
+
+.fa-instagram {
+    font-size: 15px;
+    background: var(--bs-body-color);;
+    color: var(--white);
+    padding: 10px 12px;
+}
