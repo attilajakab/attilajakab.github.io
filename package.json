@@ -1,0 +1,23 @@
+{
+  "name": "celenka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node compile-templates.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attilajakab/attilajakab.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attilajakab/attilajakab.github.io/issues"
+  },
+  "homepage": "https://github.com/attilajakab/attilajakab.github.io#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

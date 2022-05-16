@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ručná výroba a predaj krásnych čeleniek pre deti a mamky vyrobené z kvalitných materiálov zo Slovenska">
+    <meta name="author" content="Attila Jakab">
+    <link rel="icon" type="image/png" href="./assets/celenka-logo.png"/>
+    <title>čelenka - ručná výroba a predaj čeleniek pre deti a mamky</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="#" aria-label="čelenka logo">
+          <img src="./assets/celenka-logo.png" alt="čelenka logo" width="25">
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="#products">Čelenky</a>
+        <a class="py-2 d-none d-md-inline-block" href="#about">Príbeh</a>
+        <a class="py-2 d-none d-md-inline-block" href="#about">Galéria</a>
+        <a class="py-2 d-none d-md-inline-block" href="#order-form">Objednávací formulár</a>
+        <a class="py-2 d-none d-md-inline-block" href="#footer">Kontakt</a>
+      </nav>
+    </header>
+
+    <main class="container-lg">
+
+
+
+      <!-- HERO -->
+      <section id="hero" class="position-relative overflow-hidden p-3 p-md-5 my-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <h1 class="display-4 fw-normal"><img src="./assets/celenka-logo.png" alt="čelenka logo" width="50"> čelenka</h1>
+          <p class="lead fw-normal">Čelenky a čiapky ušité s láskou pre malé princezné a ich mamky z kvalitných certifikovaných materiálov vhodných pre najmenšie bábätká a batoľatá.</p>
+          <a class="btn btn-berry-patch" href="#products">Čelenky ↓</a>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      {{> productsPartial }}
+
+      <!-- ABOUT -->
+      <section id="about" class="row my-5 py-5 d-flex">
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center order-md-0 order-0">
+          <h2 class="display-5">O ČELENKE</h2>
+          <p class="lead text-center">Čelenka vznikla spojením mojich dvoch lások. Jednou je moja malá dcérka, ktorá je stále mojou najväčšou inšpiráciou a tou druhou láska k šitiu.  S technickou pomocou môjho manžela vznikla značka čelenka.</p>
+        </div>
+        <div class="col-md-6 p-2 position-relative order-md-1 order-1 text-center">
+          <img src="./assets/undraw_dream_world_re_x2yl.svg" alt="about me section image" class="img-fluid" style="max-height: 300px;">
+        </div>
+        
+        <div class="col-md-6 p-5 position-relative order-md-2 order-3 mt-5 text-center">
+          <img src="./assets/undraw_fitting_pieces_re_nss7.svg" alt="creation section image" class="img-fluid" style="max-height: 250px;">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center order-md-3 order-2 mt-5">
+          <h2 class="display-5">VÝROBA</h2>
+          <p class="lead text-center">Všetky produkty sú šité poctivo ručne prostredníctvom strojového šitia. Šijem na mieru podľa Vami zadanej objednávky. Neustále pracujem na nových kúskoch, ktoré budú pridávané do kolekcií.</p>
+        </div>
+
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center order-md-4 order-4 mt-5">
+          <h2 class="display-5">LÁTKY</h2>
+          <p class="lead text-center">V kolekciách môžete nájsť produkty s úpletu, teplákoviny či patentu. Vďaka týmto látkam sú čelenky a čiapky pružné a preto sa ľahko prispôsobia jej nositeľke. Všetky látky sú dodávané slovenským výrobcom a zároveň sú z certifikovaného materiálu Oeko-Tex Standard 100 trieda I. vhodné pre bábätká a batoľatá. Čelenky a čiapky odporúčame prať pri max. teplote 30°C.</p>
+        </div>
+        <div class="col-md-6 p-2 position-relative order-md-5 order-5 mt-5 text-center">
+          <img src="./assets/undraw_flowers_vx06.svg" alt="materials section image" class="img-fluid" style="max-height: 250px;">
+        </div>
+      </section>
+
+
+
+      <!-- Photo Grid -->
+    <!-- <div class="photo-grid-row"> 
+      <div class="column">
+        <img src="https://sheepandstitch.com/wp-content/uploads/2018/09/baby-pom-scarf-thumbnail1-1.jpg" style="width:100%">
+        <img src="https://cdn2.momjunction.com/wp-content/uploads/2015/05/10-Adorable-Mother-And-Baby-Images-1-624x702.jpg" style="width:100%">
+        <img src="https://ae01.alicdn.com/kf/HTB15FYqXPzuK1RjSsppq6xz0XXaB/DreamShining-Newborn-Baby-Hat-Scarf-Set-Cartoon-Cat-Warm-Hats-Autumn-Winter-Baby-Toddler-Beanie-Protect.jpg_Q90.jpg_.webp" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="https://i.pinimg.com/originals/c7/48/70/c748701059c146fffbe752865d95e4e9.jpg" style="width:100%">
+        <img src="https://www.lovel.sk/uploads/product/large/stylova-celenka-korunka-haloo-lovel%282%29.JPG" style="width:100%">
+        <img src="https://lgmspojmat.sk/1_pictures/wp-upload-1pcs-roztomil%C3%BD-ve%C4%BEk%C3%A9-bowknot-die%C5%A5a-turban-%C4%8Delenky_90372.jpeg" style="width:100%">
+      </div>  
+      <div class="column">
+        <img src="https://lgmspojmat.sk/1_pictures/wp-upload-1pcs-roztomil%C3%BD-ve%C4%BEk%C3%A9-bowknot-die%C5%A5a-turban-%C4%8Delenky_90372.jpeg" style="width:100%">
+        <img src="https://cdn2.momjunction.com/wp-content/uploads/2015/05/10-Adorable-Mother-And-Baby-Images-1-624x702.jpg" style="width:100%">
+        <img src="https://ae01.alicdn.com/kf/HTB15FYqXPzuK1RjSsppq6xz0XXaB/DreamShining-Newborn-Baby-Hat-Scarf-Set-Cartoon-Cat-Warm-Hats-Autumn-Winter-Baby-Toddler-Beanie-Protect.jpg_Q90.jpg_.webp" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="https://i.pinimg.com/originals/c7/48/70/c748701059c146fffbe752865d95e4e9.jpg" style="width:100%">
+        <img src="https://www.lovel.sk/uploads/product/large/stylova-celenka-korunka-haloo-lovel%282%29.JPG" style="width:100%">
+        <img src="https://sheepandstitch.com/wp-content/uploads/2018/09/baby-pom-scarf-thumbnail1-1.jpg" style="width:100%">
+      </div>
+    </div> -->
+
+
+
+      <!-- ORDER FORM -->
+      <section id="order-form" class="row justify-content-center order-form-container mt-5 pb-5">
+        <h2 class="display-6 text-center mt-5 mb-4">OBJEDNÁVACÍ FORMULÁR</h2>
+        <form class="col-lg-6 col-md-10">
+          <div class="mb-3">
+            <label for="name" class="form-label">Vaše meno</label>
+            <input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" required>
+            <div id="nameHelp" class="form-text">Povinné</div>
+          </div>
+          <div class="mb-3">
+            <label for="order-text" class="form-label">Detail Vašej objednávky</label>
+            <textarea class="form-control" name="order-text" id="order-text" rows="4" placeholder="Model, veľkosť, počet kusov..." aria-describedby="orderTextHelp"></textarea>
+            <div id="orderTextHelp" class="form-text">Povinné</div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Váš email</label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text">Povinné</div>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Vaše telefónne číslo</label>
+            <input type="tel" class="form-control" name="phone" id="phone">
+          </div>
+          <div class="mb-3">
+            <label for="delivery-address" class="form-label">Adresa doručenia</label>
+            <input type="text" class="form-control" name="delivery-address" id="delivery-address" aria-describedby="deliveryAddressHelp" required>
+            <div id="deliveryAddressHelp" class="form-text">Povinné</div>
+          </div>
+          <div class="mb-3">
+            <label for="zip" class="form-label">PSČ</label>
+            <input type="text" class="form-control" name="zip" id="zip" aria-describedby="zipHelp" required>
+            <div id="zipHelp" class="form-text">Povinné</div>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="gdpr" required>
+            <label class="form-check-label" for="gdpr">
+              Súhlasím s tým, aby táto webová stránka uchovala moje predložené informácie, aby na ich základe mohli zrealizovať objednávku.
+            </label>
+          </div>
+          <div id="deliveryAddressHelp" class="form-text mb-3">Povinné (GDPR)</div>
+          <button type="submit" class="btn btn-berry-patch w-100">Odoslať</button>
+        </form>
+      </section>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="./assets/celenka-logo.png" alt="čelenka logo" width="25">
+          <small class="d-block mb-3 text-muted">&copy; 2022</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary" href="#">Random feature</a></li>
+            <li><a class="link-secondary" href="#">Team feature</a></li>
+            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary" href="#">Another one</a></li>
+            <li><a class="link-secondary" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Resource name</a></li>
+            <li><a class="link-secondary" href="#">Resource</a></li>
+            <li><a class="link-secondary" href="#">Another resource</a></li>
+            <li><a class="link-secondary" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Business</a></li>
+            <li><a class="link-secondary" href="#">Education</a></li>
+            <li><a class="link-secondary" href="#">Government</a></li>
+            <li><a class="link-secondary" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Médiá</h5>
+          <ul class="list-unstyled text-small">
+            <li><a href="https://www.facebook.com/celenka.moda" class="fa fa-facebook" target="_blank"></a></li>
+            <li class="mt-1"><a href="https://www.instagram.com/celenka.moda/" class="fa fa-instagram" target="_blank"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
