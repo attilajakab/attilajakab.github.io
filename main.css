@@ -139,6 +139,13 @@ nav a:not(:first-child):hover:after {
     padding: 10px 12px;
 }
 
+.fa-envelope {
+  font-size: 15px;
+  background: var(--bs-body-color);;
+  color: var(--white);
+  padding: 9px 11px;
+}
+
 /* Photo grid */
 /* .photo-grid-row {
     display: -ms-flexbox; 

@@ -131,53 +131,51 @@
             <div id="zipHelp" class="form-text">Povinné</div>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="gdpr" required>
+            <input class="form-check-input" type="checkbox" value="" id="gdpr" requi red>
             <label class="form-check-label" for="gdpr">
-              Súhlasím s tým, aby táto webová stránka uchovala moje predložené informácie, aby na ich základe mohli zrealizovať objednávku.
+              <small> 
+                Súhlasím s tým, aby táto webová stránka uchovala moje predložené informácie, aby na ich základe mohli zrealizovať objednávku.
+              </small>
             </label>
           </div>
-          <div id="deliveryAddressHelp" class="form-text mb-3">Povinné (GDPR)</div>
+          <div class="form-text mb-3">Povinné (GDPR)</div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="gdpr" required>
+            <label class="form-check-label" for="gdpr">
+              <small>  
+                Súhlasím so všeobecnými obchodnými podmienkami.
+              </small>
+            </label>
+          </div>
+          <div class="form-text mb-3">Povinné</div>
           <button type="submit" class="btn btn-berry-patch w-100">Odoslať</button>
         </form>
       </section>
+
+      <!-- MODALS -->
+      {{> privacyPolicyModalPartial }}
+      {{> termsConditionsModalPartial }}
+      {{> measurementModalPartial }}
     </main>
 
-
-
     <!-- Footer -->
-    <footer id="footer" class="container py-5">
+    <footer id="footer" class="container py-5"> 
       <div class="row">
         <div class="col-12 col-md">
           <img src="./assets/celenka-logo.png" alt="čelenka logo" width="25">
           <small class="d-block mb-3 text-muted">&copy; 2022</small>
         </div>
         <div class="col-6 col-md">
-          <h5>Features</h5>
+          <h5>O nákupe</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Cool stuff</a></li>
-            <li><a class="link-secondary" href="#">Random feature</a></li>
-            <li><a class="link-secondary" href="#">Team feature</a></li>
-            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
-            <li><a class="link-secondary" href="#">Another one</a></li>
-            <li><a class="link-secondary" href="#">Last time</a></li>
+            <li><a class="link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#measurement-modal">Ako zmerať obvod hlavy</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5>Resources</h5>
+          <h5>Informácie</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Resource name</a></li>
-            <li><a class="link-secondary" href="#">Resource</a></li>
-            <li><a class="link-secondary" href="#">Another resource</a></li>
-            <li><a class="link-secondary" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Business</a></li>
-            <li><a class="link-secondary" href="#">Education</a></li>
-            <li><a class="link-secondary" href="#">Government</a></li>
-            <li><a class="link-secondary" href="#">Gaming</a></li>
+            <li><a class="link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#privacy-policy-modal">Zásady ochrany osobných údajov</a></li>
+            <li><a class="link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#terms-conditions-modal">Obchodné podmienky</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
@@ -185,6 +183,12 @@
           <ul class="list-unstyled text-small">
             <li><a href="https://www.facebook.com/celenka.moda" class="fa fa-facebook" target="_blank"></a></li>
             <li class="mt-1"><a href="https://www.instagram.com/celenka.moda/" class="fa fa-instagram" target="_blank"></a></li>
+            <li class="mt-1">
+              <a href="mailto:celenka.moda@gmail.com" class="fa fa-envelope" target="_blank"></a> 
+                <small>
+                  <i>celenka.moda@gmail.com</i>
+                </small>
+            </li>
           </ul>
         </div>
       </div>

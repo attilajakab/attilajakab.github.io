@@ -22,11 +22,19 @@ const helpers = {
 
 const template = fs.readFileSync('templates/template.handlebars', 'utf8');
 const productsPartial = fs.readFileSync('templates/partials/products.handlebars','utf8');
+const privacyPolicyModalPartial = fs.readFileSync('templates/partials/privacy-policy-modal.handlebars','utf8');
+const termsConditionsModalPartial = fs.readFileSync('templates/partials/terms-conditions-modal.handlebars','utf8');
+const measurementModalPartial = fs.readFileSync('templates/partials/measurement-modal.handlebars','utf8');
 
 const compiled = hb.compile(template);
 const html = compiled(data, { 
     helpers,
-    partials: { productsPartial }
+    partials: { 
+        productsPartial, 
+        privacyPolicyModalPartial, 
+        termsConditionsModalPartial,
+        measurementModalPartial
+    }
 });
 
 fs.writeFileSync('index.html', html);
