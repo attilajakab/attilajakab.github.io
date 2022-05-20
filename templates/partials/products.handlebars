@@ -9,7 +9,7 @@
         {{#ifLt @index 8}}
           <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
             <div class="card h-100">
-              <img src="{{imgPath}}" class="card-img-top" alt="..." loading="lazy">
+              <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
               <div class="card-body position-relative">
                 <h5 class="card-title">{{title}}</h5>
                 <p class="card-text">{{description}}</p>
@@ -37,7 +37,7 @@
         {{#ifLt @index 8}}
           <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
             <div class="card h-100">
-              <img src="{{imgPath}}" class="card-img-top" alt="..." loading="lazy">
+              <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
               <div class="card-body position-relative">
                 <h5 class="card-title">{{title}}</h5>
                 <p class="card-text">{{description}}</p>
