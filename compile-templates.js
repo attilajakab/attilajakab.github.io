@@ -20,16 +20,19 @@ const helpers = {
     },
 };
 
-const template = fs.readFileSync('templates/template.handlebars', 'utf8');
+const indexPage = fs.readFileSync('templates/template.handlebars', 'utf8');
+const productsPage = fs.readFileSync('templates/all-products.handlebars', 'utf8');
 const productsPartial = fs.readFileSync('templates/partials/products.handlebars','utf8');
 const privacyPolicyModalPartial = fs.readFileSync('templates/partials/privacy-policy-modal.handlebars','utf8');
 const termsConditionsModalPartial = fs.readFileSync('templates/partials/terms-conditions-modal.handlebars','utf8');
 const measurementModalPartial = fs.readFileSync('templates/partials/measurement-modal.handlebars','utf8');
+const header = fs.readFileSync('templates/partials/header.handlebars','utf8');
 
-const compiled = hb.compile(template);
-const html = compiled(data, { 
+const compiledIndexPage = hb.compile(indexPage);
+const indexPageHtml = compiledIndexPage(data, { 
     helpers,
     partials: { 
+        header,
         productsPartial, 
         privacyPolicyModalPartial, 
         termsConditionsModalPartial,
@@ -37,4 +40,16 @@ const html = compiled(data, {
     }
 });
 
-fs.writeFileSync('index.html', html);
+const compiledProductsPage = hb.compile(productsPage);
+const productsPageHtml = compiledProductsPage(data, { 
+    helpers,
+    partials: { 
+        header,
+        privacyPolicyModalPartial, 
+        termsConditionsModalPartial,
+        measurementModalPartial
+    }
+});
+
+fs.writeFileSync('index.html', indexPageHtml);
+fs.writeFileSync('products.html', productsPageHtml);
