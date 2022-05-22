@@ -27,4 +27,29 @@ document.addEventListener("DOMContentLoaded", function(event) {
             allNavLinks.forEach(el => el.classList.add('d-none'));
         }
     });
+
+    function getPlainObjectFromFormElement(form) {
+        const elements = form.elements;
+        return Object.keys(elements)
+            .reduce((obj, field) => {
+                if (isNaN(field)) {
+                    obj[field] = elements[field].value;
+                }
+                return obj;
+            }, {});
+    }
+    
+    document.querySelector('form').onsubmit = function (e) {
+        e.preventDefault();
+
+        const formData = getPlainObjectFromFormElement(e.target);
+
+        fetch('https://y04eh5uok0.execute-api.eu-central-1.amazonaws.com/production/order', {
+            method: 'POST',
+            body: JSON.stringify(formData),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8'
+            }
+        });
+    }
 });

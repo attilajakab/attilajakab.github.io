@@ -9,7 +9,7 @@
     <title>čelenka - ručná výroba a predaj čeleniek pre deti a mamky</title>
   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" preconnect>
     <link href="main.css" rel="stylesheet">
   </head>
   <body>
@@ -57,32 +57,6 @@
 
 
 
-      <!-- Photo Grid -->
-    <!-- <div class="photo-grid-row"> 
-      <div class="column">
-        <img src="https://sheepandstitch.com/wp-content/uploads/2018/09/baby-pom-scarf-thumbnail1-1.jpg" style="width:100%">
-        <img src="https://cdn2.momjunction.com/wp-content/uploads/2015/05/10-Adorable-Mother-And-Baby-Images-1-624x702.jpg" style="width:100%">
-        <img src="https://ae01.alicdn.com/kf/HTB15FYqXPzuK1RjSsppq6xz0XXaB/DreamShining-Newborn-Baby-Hat-Scarf-Set-Cartoon-Cat-Warm-Hats-Autumn-Winter-Baby-Toddler-Beanie-Protect.jpg_Q90.jpg_.webp" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="https://i.pinimg.com/originals/c7/48/70/c748701059c146fffbe752865d95e4e9.jpg" style="width:100%">
-        <img src="https://www.lovel.sk/uploads/product/large/stylova-celenka-korunka-haloo-lovel%282%29.JPG" style="width:100%">
-        <img src="https://lgmspojmat.sk/1_pictures/wp-upload-1pcs-roztomil%C3%BD-ve%C4%BEk%C3%A9-bowknot-die%C5%A5a-turban-%C4%8Delenky_90372.jpeg" style="width:100%">
-      </div>  
-      <div class="column">
-        <img src="https://lgmspojmat.sk/1_pictures/wp-upload-1pcs-roztomil%C3%BD-ve%C4%BEk%C3%A9-bowknot-die%C5%A5a-turban-%C4%8Delenky_90372.jpeg" style="width:100%">
-        <img src="https://cdn2.momjunction.com/wp-content/uploads/2015/05/10-Adorable-Mother-And-Baby-Images-1-624x702.jpg" style="width:100%">
-        <img src="https://ae01.alicdn.com/kf/HTB15FYqXPzuK1RjSsppq6xz0XXaB/DreamShining-Newborn-Baby-Hat-Scarf-Set-Cartoon-Cat-Warm-Hats-Autumn-Winter-Baby-Toddler-Beanie-Protect.jpg_Q90.jpg_.webp" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="https://i.pinimg.com/originals/c7/48/70/c748701059c146fffbe752865d95e4e9.jpg" style="width:100%">
-        <img src="https://www.lovel.sk/uploads/product/large/stylova-celenka-korunka-haloo-lovel%282%29.JPG" style="width:100%">
-        <img src="https://sheepandstitch.com/wp-content/uploads/2018/09/baby-pom-scarf-thumbnail1-1.jpg" style="width:100%">
-      </div>
-    </div> -->
-
-
-
       <!-- ORDER FORM -->
       <section id="order-form" class="row justify-content-center order-form-container mt-5 pb-5">
         <h2 class="display-6 text-center mt-5 mb-4">OBJEDNÁVACÍ FORMULÁR</h2>
@@ -117,7 +91,7 @@
             <div id="zipHelp" class="form-text">Povinné</div>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="gdpr" requi red>
+            <input class="form-check-input" type="checkbox" value="" id="gdpr" required>
             <label class="form-check-label" for="gdpr">
               <small> 
                 Súhlasím s tým, aby táto webová stránka uchovala moje predložené informácie, aby na ich základe mohli zrealizovať objednávku.
@@ -126,8 +100,8 @@
           </div>
           <div class="form-text mb-3">Povinné (GDPR)</div>
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="gdpr" required>
-            <label class="form-check-label" for="gdpr">
+            <input class="form-check-input" type="checkbox" value="" id="terms-conditions" required>
+            <label class="form-check-label" for="terms-conditions">
               <small>  
                 Súhlasím so všeobecnými obchodnými podmienkami.
               </small>
@@ -153,40 +127,7 @@
     </main>
 
     <!-- Footer -->
-    <footer id="footer" class="container py-5"> 
-      <div class="row">
-        <div class="col-12 col-md">
-          <img src="./assets/celenka-logo.png" alt="čelenka logo" width="25">
-          <small class="d-block mb-3 text-muted">&copy; 2022</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>O nákupe</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#measurement-modal">Ako zmerať obvod hlavy</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Informácie</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#privacy-policy-modal">Zásady ochrany osobných údajov</a></li>
-            <li><a class="link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#terms-conditions-modal">Obchodné podmienky</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Médiá</h5>
-          <ul class="list-unstyled text-small">
-            <li><a href="https://www.facebook.com/celenka.moda" class="fa fa-facebook" target="_blank"></a></li>
-            <li class="mt-1"><a href="https://www.instagram.com/celenka.moda/" class="fa fa-instagram" target="_blank"></a></li>
-            <li class="mt-1">
-              <a href="mailto:celenka.moda@gmail.com" class="fa fa-envelope" target="_blank"></a> 
-                <small>
-                  <i>celenka.moda@gmail.com</i>
-                </small>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+    {{> footer }}
 
     <script type="text/javascript" src="./assets/js/common.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

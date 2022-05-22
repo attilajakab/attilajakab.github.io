@@ -27,6 +27,7 @@ const privacyPolicyModalPartial = fs.readFileSync('templates/partials/privacy-po
 const termsConditionsModalPartial = fs.readFileSync('templates/partials/terms-conditions-modal.handlebars','utf8');
 const measurementModalPartial = fs.readFileSync('templates/partials/measurement-modal.handlebars','utf8');
 const header = fs.readFileSync('templates/partials/header.handlebars','utf8');
+const footer = fs.readFileSync('templates/partials/footer.handlebars','utf8');
 
 const compiledIndexPage = hb.compile(indexPage);
 const indexPageHtml = compiledIndexPage(data, { 
@@ -36,7 +37,8 @@ const indexPageHtml = compiledIndexPage(data, {
         productsPartial, 
         privacyPolicyModalPartial, 
         termsConditionsModalPartial,
-        measurementModalPartial
+        measurementModalPartial,
+        footer
     }
 });
 
@@ -47,7 +49,8 @@ const productsPageHtml = compiledProductsPage(data, {
         header,
         privacyPolicyModalPartial, 
         termsConditionsModalPartial,
-        measurementModalPartial
+        measurementModalPartial,
+        footer
     }
 });
 
