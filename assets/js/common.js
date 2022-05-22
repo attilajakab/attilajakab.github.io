@@ -50,6 +50,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
             headers: {
                 'Content-type': 'application/json; charset=UTF-8'
             }
+        }).then(response => {
+            if (response.status === 200) {
+                alert('Objednávka úspešne odoslaná!')
+            } else {
+                alert('Niečo sa pokazilo, kontaktuje nás prosím na celenka.moda@gmail.com.');
+            }
+        }).catch(() => {
+            alert('Niečo sa pokazilo, kontaktuje nás prosím na celenka.moda@gmail.com.');
+        }).finally(() => {
+            document.querySelector('form').reset();
         });
     }
 });
