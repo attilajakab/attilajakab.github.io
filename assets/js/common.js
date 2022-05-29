@@ -39,8 +39,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }, {});
     }
     
+    function recaptchaCallback() {
+        document.querySelector('form').classList.remove('captcha-disabled');
+    }
+
+    function recaptchaExpiredCallback() {
+        document.querySelector('form').classList.add('captcha-disabled');
+    }
+    
     document.querySelector('form').onsubmit = function (e) {
         e.preventDefault();
+
+        if (document.querySelector('form').classList.contains('captcha-disabled')) {
+            return false;
+        }
 
         const formData = getPlainObjectFromFormElement(e.target);
 

@@ -282,7 +282,7 @@
       <!-- ORDER FORM -->
       <section id="order-form" class="row justify-content-center order-form-container mt-5 pb-5">
         <h2 class="display-6 text-center mt-5 mb-4">OBJEDNÁVACÍ FORMULÁR</h2>
-        <form class="col-lg-6 col-md-10">
+        <form class="col-lg-6 col-md-10 captcha-disabled">
           <div class="mb-3">
             <label for="name" class="form-label">Vaše meno</label>
             <input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" required>
@@ -330,7 +330,10 @@
             </label>
           </div>
           <div class="form-text mb-3">Povinné</div>
-          <div class="g-recaptcha d-flex justify-content-center mb-4" data-sitekey="6Led7CkgAAAAAG4h0S5_bta1mS-vIzGy3bj6vXb1"></div>
+          <div class="g-recaptcha d-flex justify-content-center mb-4" 
+              data-sitekey="6Led7CkgAAAAAG4h0S5_bta1mS-vIzGy3bj6vXb1"
+              data-callback="recaptchaCallback"
+              data-expired-callback="recaptchaExpiredCallback"></div>
           <button type="submit" class="btn btn-berry-patch w-100">Odoslať</button>
         </form>
       </section>
