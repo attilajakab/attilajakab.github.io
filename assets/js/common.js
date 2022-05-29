@@ -1,3 +1,11 @@
+function recaptchaCallback() {
+    document.querySelector('form').classList.remove('captcha-disabled');
+}
+
+function recaptchaExpiredCallback() {
+    document.querySelector('form').classList.add('captcha-disabled');
+}
+
 document.addEventListener("DOMContentLoaded", function(event) { 
     const imgs = document.querySelectorAll('.card-img-top');
     const imgPreviewBackdrop = document.getElementById('img-preview-backdrop');
@@ -37,14 +45,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 }
                 return obj;
             }, {});
-    }
-    
-    function recaptchaCallback() {
-        document.querySelector('form').classList.remove('captcha-disabled');
-    }
-
-    function recaptchaExpiredCallback() {
-        document.querySelector('form').classList.add('captcha-disabled');
     }
     
     document.querySelector('form').onsubmit = function (e) {
