@@ -4,6 +4,7 @@ const fs = require('fs');
 const data = require('./data.json');
 data.kolekciaDcera = data.products.filter(product => product.category === 'Dcéra');
 data.kolekciaMamaADcera = data.products.filter(product => product.category === 'Mama&Dcéra');
+data.kolekciaChlapcek = data.products.filter(product => product.category === 'Chlapček');
 
 const helpers = {
     ifEq: function (a, b, options) {

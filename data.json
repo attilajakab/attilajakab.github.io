@@ -5,7 +5,7 @@
             "description": "Čelenka s dvojitou mašličkou na gumku so vzormi poľných kvetov. Zloženie: úplet: 95% bavlna,5% elastan.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0693.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0693.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -13,7 +13,7 @@
             "description": "Jednovrstvový turban s mašličkou so vzormi poľných kvetov vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0675.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0675.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
             "category": "Dcéra"
         },
         {
@@ -21,7 +21,7 @@
             "description": "Čelenka s dvojitou mašličkou na gumku staroružovej farby so slovenskými vzormi. Zloženie: teplákovina: 95% bavlna,5% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0645.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0645.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -29,15 +29,15 @@
             "description": "Čelenka s mašličkou na gumku so vzormi slovenskej modrotlače. Zloženie: teplákovina: 95% bavlna,5% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0637.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0637.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
             "title": "Čelenka s dvojitou mašľou Alexandra",
             "description": "Biela čelenka s dvojitou mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0660.jpeg",
-            "imgPath": "./assets/products/jpg/IMG_0660.jpg",
-            "price": "€6.90",
+            "imgPath": "./assets/products/jpg/IMG_0660.jpeg",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -45,7 +45,7 @@
             "description": "Čelenka s dvojitou mašličkou na gumku s bohatými vzormi kvetov. Zloženie: úplet: 95% bavlna,5% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0649.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0649.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -53,7 +53,7 @@
             "description": "Svetlo ružová čelenka s mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0666.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0666.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -61,7 +61,15 @@
             "description": "Jednovrstvový turban s mašličkou bielej farby vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0671.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0671.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Čelenka s mašľou Alexandra",
+            "description": "Biela čelenka s mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_0970.jpg",
+            "imgPath": "./assets/products/jpg/IMG_0970.jpg",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -69,7 +77,7 @@
             "description": "Čelenka s mašličkou na gumku so vzormi exotických kvetov. Zloženie: úplet: 95% bavlna,5% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0667.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0667.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -77,7 +85,15 @@
             "description": "Jednovrstvový turban s mašličkou so vzormi exotických kvetov vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0677.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0677.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Čelenka s dvojitou mašľou Viktória ",
+            "description": "Čelenka s dvojitou mašličkou na gumku so vzormi exotických kvetov. Zloženie: úplet: 96% bavlna,4% elastan. ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_0959.jpg",
+            "imgPath": "./assets/products/jpg/IMG_0959.jpg",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -85,7 +101,7 @@
             "description": "Čelenka s mašličkou na gumku s bodkami a srdiečkami. Zloženie: teplákovina: 95% bavlna,5% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0657.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0657.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -93,7 +109,7 @@
             "description": "Čelenka s dvojitou mašličkou na gumku s pestrofarebnými trojuholníkmi. Zloženie: úplet: 96% bavlna,4% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0641.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0641.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -101,7 +117,7 @@
             "description": "Čelenka s dvojitou mašličkou na gumku s milými detskými vzormi ružovej farby. Zloženie: úplet: 96% bavlna,4% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0646.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0646.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -109,7 +125,7 @@
             "description": "Jednovrstvový turban s milými detskými vzormi ružovej farby vhodný na jar či leto. Zloženie: úplet: 96% bavlna,4% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0668.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0668.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
             "category": "Dcéra"
         },
         {
@@ -117,7 +133,7 @@
             "description": "Čelenka s mašličkou na gumku s farebnými vzormi. Zloženie: úplet: 95% bavlna,5% elastan ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0661.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0661.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -125,7 +141,7 @@
             "description": "Jednovrstvový turban s letnými vzormi vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0676.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0676.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
             "category": "Dcéra"
         },
         {
@@ -133,7 +149,7 @@
             "description": "Čelenka s mašličkou na gumku zelenej farby. Zloženie: patent: 97% bavlna,3% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0651.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0651.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -141,7 +157,7 @@
             "description": "Zelený jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0695.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0695.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
             "category": "Dcéra"
         },
         {
@@ -149,7 +165,7 @@
             "description": "Čelenka s mašličkou na gumku béžovej farby. Zloženie: patent: 97% bavlna,3% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0653.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0653.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -157,7 +173,7 @@
             "description": "Béžový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0673.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0673.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
             "category": "Dcéra"
         },
         {
@@ -165,7 +181,7 @@
             "description": "Čelenka s mašličkou na gumku ružovej farby. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0709.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0709.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -173,7 +189,7 @@
             "description": "Ružový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0674.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0674.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
             "category": "Dcéra"
         },
         {
@@ -181,7 +197,7 @@
             "description": "Čelenka s mašličkou na gumku púdrovo ružovej farby. Zloženie: patent: 97% bavlna,3% elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0672.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0672.jpg",
-            "price": "€6.90",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -189,7 +205,23 @@
             "description": "Púdrovo ružový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0669.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0669.jpg",
-            "price": "€7.90",
+            "price": "€6.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Klobúk Marianna",
+            "description": "Ľahký letný rastúci klobúčik na gumku svetloružovej farby zo 100% bavlny. Zloženie: bavlna: 100%. ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1115.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1115.jpg",
+            "price": "€9.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Klobúk Olívia",
+            "description": "Ľahký letný rastúci klobúčik na gumku horčicovej farby zo 100% bavlny. Zloženie: bavlna: 100%.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1119.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1119.jpg",
+            "price": "€9.90",
             "category": "Dcéra"
         },
         {
@@ -197,7 +229,7 @@
             "description": "Prekrížená čelenka staroružovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0718.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0718.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -205,7 +237,7 @@
             "description": "Prekrížená čelenka béžovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0716.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0716.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -213,7 +245,7 @@
             "description": "Prekrížená čelenka cyklaménovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0719.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0719.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -221,7 +253,7 @@
             "description": "Prekrížená čelenka tmavozelenej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0712.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0712.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -229,7 +261,7 @@
             "description": "Prekrížená čelenka parížskej modrej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0711.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0711.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -237,7 +269,7 @@
             "description": "Prekrížená čelenka tmavo tyrkysovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0721.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0721.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -245,7 +277,7 @@
             "description": "Prekrížená čelenka mätovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0717.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0717.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -253,7 +285,7 @@
             "description": "Prekrížená čelenka karamelovej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0714.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0714.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -261,7 +293,7 @@
             "description": "Prekrížená čelenka červenej farby. Zloženie: úplet: 95% bavlna,5 % elastan ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0713.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0713.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         }, 
         {
@@ -269,7 +301,7 @@
             "description": "Prekrížená čelenka mango farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0715.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0715.jpg",
-            "price": "€5.90",
+            "price": "€4.90",
             "category": "Dcéra"
         },
         {
@@ -277,7 +309,7 @@
             "description": "Čelenky pre mamku a dcérku s bohatými vzormi kvetov. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0710.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0710.jpg",
-            "price": "€13.50",
+            "price": "€11.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -285,7 +317,7 @@
             "description": "Čelenky pre mamku a dcérku s bodkami a srdiečkami. Zloženie: teplákovina: 95% bavlna,5% elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0656.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0656.jpg",
-            "price": "€13.50",
+            "price": "€11.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -293,7 +325,7 @@
             "description": "Čelenky pre mamku a dcérku staroružovej farby so slovenskými vzormi. Zloženie: teplákovina: 95% bavlna,5% elastan.   ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0642.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0642.jpg",
-            "price": "€13.50",
+            "price": "€11.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -301,7 +333,7 @@
             "description": "Čelenky pre mamku a dcérku s pestrofarebnými trojuholníkmi. Zloženie: úplet: 96% bavlna,4 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0639.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0639.jpg",
-            "price": "€13.50",
+            "price": "€11.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -309,7 +341,7 @@
             "description": "Čelenky pre mamku a dcérku so vzormi slovenskej modrotlače. Zloženie: teplákovina: 95% bavlna,5% elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0638.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0638.jpg",
-            "price": "€13.50",
+            "price": "€11.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -317,7 +349,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku staroružovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0681.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0681.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -325,7 +357,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku béžovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0687.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0687.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -333,7 +365,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku cyklaménovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0692.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0692.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -341,7 +373,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku tmavozelenej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0689.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0689.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -349,7 +381,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku parížsko modrej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0686.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0686.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -357,7 +389,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku tyrkysovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0694.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0694.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -365,7 +397,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku mätovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0683.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0683.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -373,7 +405,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku karamelovej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0688.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0688.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -381,7 +413,7 @@
             "description": "Prekrížené čelenky pre mamku a dcérku červenej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0682.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0682.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
         },
         {
@@ -389,8 +421,24 @@
             "description": "Prekrížené čelenky pre mamku a dcérku mango farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0684.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0684.jpg",
-            "price": "€11.50",
+            "price": "€9.90",
             "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Klobúk Teo",
+            "description": "Ľahký letný rastúci klobúčik na gumku svetlomodrej farby zo 100% bavlny. Zloženie: bavlna: 100%.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1116.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1116.jpg",
+            "price": "€9.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Čelenka Michal",
+            "description": "Jemná čelenka pre chlapčeka mätovej farby. Zloženie: úplet: 95% bavlna,5 % elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_0968.jpg",
+            "imgPath": "./assets/products/jpg/IMG_0968.jpg",
+            "price": "€4.90",
+            "category": "Chlapček"
         }
     ]
 }

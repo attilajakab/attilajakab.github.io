@@ -64,6 +64,29 @@
                 {{/ifEq}}
             {{/each}}
         </div>
+
+        <h2 class="mb-3 mt-5">
+            <small class="text-muted">kolekcia</small>
+            Chlapček
+        </h2>
+        <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
+            {{#each kolekciaChlapcek}}
+                {{#ifEq category 'Chlapček'}}
+                    <article class="col">
+                        <div class="card h-100">
+                        <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
+                        <div class="card-body position-relative">
+                            <h5 class="card-title">{{title}}</h5>
+                            <p class="card-text">{{description}}</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <strong>{{price}}</strong>
+                        </div>
+                        </div>
+                    </article>
+                {{/ifEq}}
+            {{/each}}
+        </div>
       </section>
 
       <!-- ORDER FORM -->
