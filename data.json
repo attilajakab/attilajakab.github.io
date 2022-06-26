@@ -213,7 +213,7 @@
             "description": "Ľahký letný rastúci klobúčik na gumku svetloružovej farby zo 100% bavlny. Zloženie: bavlna: 100%. ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_1115.jpg",
             "imgPath": "./assets/products/jpg/IMG_1115.jpg",
-            "price": "€9.90",
+            "price": "€8.90",
             "category": "Dcéra"
         },
         {
@@ -221,7 +221,15 @@
             "description": "Ľahký letný rastúci klobúčik na gumku horčicovej farby zo 100% bavlny. Zloženie: bavlna: 100%.  ",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_1119.jpg",
             "imgPath": "./assets/products/jpg/IMG_1119.jpg",
-            "price": "€9.90",
+            "price": "€8.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Klobúk pre dievčatko - rôzne farby",
+            "description": "Ľahký letný rastúci klobúčik na gumku rôznych farieb zo 100% bavlny. Klobúk Paulína - béžová farba, Klobúk Olívia - horčicová farba, Klobúk Júlia - cyklaménová farba, Klobúk Marianna - svetloružová farba. Zloženie: bavlna: 100%.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1305.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1305.jpg",
+            "price": "€8.90",
             "category": "Dcéra"
         },
         {
@@ -302,6 +310,54 @@
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_0715.jpeg",
             "imgPath": "./assets/products/jpg/IMG_0715.jpg",
             "price": "€4.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Korunka z úpletu Emily",
+            "description": "Korunka z úpletu pre dievčatko svetlobéžovej farby vhodná na teplejšie dni. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1318.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1318.jpg",
+            "price": "€4.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Korunka z úpletu - rôzne farby",
+            "description": "Korunka z úpletu pre dievčatko rôznych farieb vhodná na teplejšie dni. Korunka Gréta - tmavobéžová farba, Korunka Emily - svetlobéžová farba, Korunka Alexandra - biela farba, Korunka Veronika - cyklaménová farba, Korunka Diana - svetloružová farba, Korunka Bianka - mango farba, Korunka Radoslava - fialová farba. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1300.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1300.jpg",
+            "price": "€4.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Korunka z patentu Daniela",
+            "description": "Korunka z patentu pre dievčatko fialovej farby vhodná na chladnejšie dni. Zloženie: patent: 97% bavlna,3 % elastan.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1311.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1311.jpg",
+            "price": "€5.50",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Korunka z patentu - rôzne farby",
+            "description": "Korunka z patentu pre dievčatko rôznych farieb vhodná na chladnejšie dni. Korunka Kristína - béžová farba, Korunka Ema - púdrovo ružová farba, Korunka Daniela - fialová farba, Korunka Marína - cyklaménová farba, Korunka Sofia - ružová farba. Zloženie: patent: 97% bavlna, 3 % elastan.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1293.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1293.jpg",
+            "price": "€5.50",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Čiapka z rebrovaného úpletu Zoja",
+            "description": "Jednovrstvová čiapka z rebrovaného úpletu ružovej farby vhodná na jesenné dni. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1320.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1320.jpg",
+            "price": "€5.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Čiapka z rebrovaného úpletu - rôzne farby",
+            "description": "Jednovrstvová čiapka z rebrovaného úpletu rôznych farieb vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1321.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1321.jpg",
+            "price": "€5.90",
             "category": "Dcéra"
         },
         {
@@ -429,7 +485,15 @@
             "description": "Ľahký letný rastúci klobúčik na gumku svetlomodrej farby zo 100% bavlny. Zloženie: bavlna: 100%.",
             "imgThumbPath": "./assets/products/jpg/thumb/IMG_1116.jpg",
             "imgPath": "./assets/products/jpg/IMG_1116.jpg",
-            "price": "€9.90",
+            "price": "€8.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Klobúk pre chlapčeka - rôzne farby",
+            "description": "Ľahký letný rastúci klobúčik na gumku rôznych farieb zo 100% bavlny. Klobúk Pavol - béžová farba, Klobúk Teo - svetlomodrá farba, Klobúk Peter - mätová farba. Zloženie: bavlna: 100%.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1303.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1303.jpg",
+            "price": "€8.90",
             "category": "Chlapček"
         },
         {
@@ -439,6 +503,79 @@
             "imgPath": "./assets/products/jpg/IMG_0968.jpg",
             "price": "€4.90",
             "category": "Chlapček"
+        },
+        {
+            "title": "Čelenka pre chlapčeka - rôzne farby",
+            "description": "Jemná čelenka pre chlapčeka rôznych farieb. Čelenka Gregor - tmavobéžová farba, Čelenka Emil - svetlobéžová farba, Čelenka Adam - baby blue farba, Čelenka Damián - baby blue tmavá farba, Čelenka Radoslav - fialová farba, Čelenka Michal - mätová farba, Čelenka Benjamín - karamelová farba, Čelenka Karol - tmavotyrkysová farba.  Zloženie: úplet: 95% bavlna,5 % elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1302.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1302.jpg",
+            "price": "€4.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Korunka z úpletu Viktor",
+            "description": "Korunka z úpletu pre chlapčeka tmavozelenej farby vhodná na teplejšie dni. Zloženie: úplet: 95% bavlna,5 % elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1323.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1323.jpg",
+            "price": "€4.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Korunka z úpletu - rôzne farby",
+            "description": "Korunka z úpletu pre chlapčeka rôznych farieb vhodná na teplejšie dni. Korunka Gregor - tmavobéžová farba, Korunka Emil - svetlobéžová farba, Korunka Adam - baby blue farba, Korunka Damián - baby blue tmavá farba, Korunka Radoslav - fialová farba, Korunka Michal - mätová farba, Korunka Benjamín - karamelová farba, Korunka Karol - tmavotyrkysová farba.  Zloženie: úplet: 95% bavlna,5 % elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1302_2.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1302_2.jpg",
+            "price": "€4.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Korunka z patentu Jakub",
+            "description": "Korunka z patentu pre chlapčeka mätovej farby vhodná do chladnejšieho počasia. Zloženie: patent: 97% bavlna,3% elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1313.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1313.jpg",
+            "price": "€5.50",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Korunka z patentu - rôzne farby",
+            "description": "Korunka z patentu pre chlapčeka rôznych farieb vhodná do chladnejšieho počasia. Korunka Kristián - béžová farba, Korunka Roman - karamelová farba, Korunka Daniel - fialová farba, Korunka Viliam - parížska modrá farba, Korunka Radoslav - fialová farba, Korunka Jakub - mätová farba.  Zloženie: patent: 97% bavlna,3% elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1295.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1295.jpg",
+            "price": "€5.50",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Čiapka s uškami z rebrovaného úpletu Silvester",
+            "description": "Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Zloženie: úplet: 95% bavlna, 5% elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1319.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1319.jpg",
+            "price": "€5.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Čiapka s uškami z rebrovaného úpletu - rôzne farby",
+            "description": "Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrik - sivá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Silvester - béžová farba Zloženie: úplet: 95% bavlna, 5% elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1322.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1322.jpg",
+            "price": "€5.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Čiapka s uškami z patentu Bonifác",
+            "description": "Dvojvrstvová čiapka s uškami z rebrovaného patentu mätovej farby vhodná na zimu. Zloženie: patent: 97% bavlna,3% elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1362.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1362.jpg",
+            "price": "€6.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Čiapka s uškami z patentu - rôzne farby",
+            "description": "Dvojvrstvová čiapka s uškami z rebrovaného patentu rôznych farieb vhodná na zimu. Čiapka Florián - béžová farba, Čiapka Benjamín - karamelová farba, Čiapka Pankrác - fialová farba, Čiapka Servác - parížsko modrá farba, Čiapka Bonifác - mätová farba. Zloženie: patent: 97% bavlna,3% elastan.",
+            "imgThumbPath": "./assets/products/jpg/thumb/IMG_1295_2.jpg",
+            "imgPath": "./assets/products/jpg/IMG_1295_2.jpg",
+            "price": "€6.90",
+            "category": "Chlapček"
         }
+        
     ]
 }
