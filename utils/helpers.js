@@ -25,7 +25,8 @@ module.exports = {
             'ľ': 'l',
             'č': 'c',
             'š': 's',
-            'ô': 'o'
+            'ô': 'o',
+            'ž': 'z' 
             
         }
 
@@ -34,6 +35,7 @@ module.exports = {
             .toLowerCase()
             .replace(/\s\s+/g, ' ')
             .replace(' - ', '-')
+            .replace('/', '')
             .split('')
             .map(char => {
                 if (char === ' ') return '-';
