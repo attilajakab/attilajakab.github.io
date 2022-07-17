@@ -5,22 +5,19 @@
   </h2>
   <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
     {{#each kolekciaDcera}}
-      {{#ifEq category 'Dcéra'}}
-        {{#ifLt @index 8}}
-          <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
-            <div class="card h-100">
-              <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
-              <div class="card-body position-relative">
-                <h5 class="card-title">{{title}}</h5>
-                <p class="card-text">{{description}}</p>
-              </div>
-              <div class="card-footer text-center">
-                <strong>{{price}}</strong>
-              </div>
+      {{#ifLt @index 8}}
+        <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
+          <div class="card h-100">
+            <img src="{{imgThumbPath}}" class="card-img-top rounded-0" alt="Čelenka {{title}}" loading="lazy">
+            <div class="card-body position-relative">
+              <div class="card-price">{{price}}</div>
+              <h5 class="card-title">
+                <a href="{{slug}}">{{title}}</a>
+              </h5>
             </div>
-          </article>
-        {{/ifLt}}
-      {{/ifEq}}
+          </div>
+        </article>
+      {{/ifLt}}
     {{/each}}
     <div class="col w-100 text-center mt-5">
       <a class="btn btn-berry-patch col-6 mx-auto" href="./products.html">Zobraziť všetky</a>
@@ -33,22 +30,19 @@
   </h2>
   <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
     {{#each kolekciaMamaADcera}}
-      {{#ifEq category 'Mama&Dcéra'}}
-        {{#ifLt @index 8}}
-          <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
-            <div class="card h-100">
-              <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
-              <div class="card-body position-relative">
-                <h5 class="card-title">{{title}}</h5>
-                <p class="card-text">{{description}}</p>
-              </div>
-              <div class="card-footer text-center">
-                <strong>{{price}}</strong>
-              </div>
+      {{#ifLt @index 8}}
+        <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
+          <div class="card h-100">
+            <img src="{{imgThumbPath}}" class="card-img-top rounded-0" alt="Čelenka {{title}}" loading="lazy">
+            <div class="card-body position-relative">
+              <div class="card-price">{{price}}</div>
+              <h5 class="card-title">
+                <a href="{{slug}}">{{title}}</a>
+              </h5>
             </div>
-          </article>
-        {{/ifLt}}
-      {{/ifEq}}
+          </div>
+        </article>
+      {{/ifLt}}
     {{/each}}
     <div class="col w-100 text-center mt-5">
       <a class="btn btn-berry-patch col-6 mx-auto" href="./products.html">Zobraziť všetky</a>
@@ -61,25 +55,47 @@
   </h2>
   <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
     {{#each kolekciaChlapcek}}
-      {{#ifEq category 'Chlapček'}}
-        {{#ifLt @index 8}}
-          <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
-            <div class="card h-100">
-              <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
-              <div class="card-body position-relative">
-                <h5 class="card-title">{{title}}</h5>
-                <p class="card-text">{{description}}</p>
-              </div>
-              <div class="card-footer text-center">
-                <strong>{{price}}</strong>
-              </div>
+      {{#ifLt @index 8}}
+        <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
+          <div class="card h-100">
+            <img src="{{imgThumbPath}}" class="card-img-top rounded-0" alt="Čelenka {{title}}" loading="lazy">
+            <div class="card-body position-relative">
+              <div class="card-price">{{price}}</div>
+              <h5 class="card-title">
+                <a href="{{slug}}">{{title}}</a>
+              </h5>
             </div>
-          </article>
-        {{/ifLt}}
-      {{/ifEq}}
+          </div>
+        </article>
+      {{/ifLt}}
     {{/each}}
     <div class="col w-100 text-center mt-5">
       <a class="btn btn-berry-patch col-6 mx-auto" href="./products.html">Zobraziť všetky</a>
     </div>
+  </div>
+
+  <h2 class="mb-3 mt-5">
+    <small class="text-muted">kolekcia</small>
+    Žena
+  </h2>
+  <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
+    {{#each kolekciaZena}}
+      {{#ifLt @index 8}}
+        <article class="col {{#ifGt @index 3}} d-none d-md-block {{/ifGt}} {{#ifGt @index 5}} d-sm-block {{/ifGt}}">
+          <div class="card h-100">
+            <img src="{{imgThumbPath}}" class="card-img-top rounded-0" alt="Čelenka {{title}}" loading="lazy">
+            <div class="card-body position-relative">
+              <div class="card-price">{{price}}</div>
+              <h5 class="card-title">
+                <a href="{{slug}}">{{title}}</a>
+              </h5>
+            </div>
+          </div>
+        </article>
+      {{/ifLt}}
+    {{/each}}
+    <div class="col w-100 text-center mt-5">
+      <a class="btn btn-berry-patch col-6 mx-auto" href="./products.html">Zobraziť všetky</a>
+    </div> 
   </div>
 </section>

@@ -17,16 +17,37 @@
     <header class="site-header">
         <nav class="text-center container d-flex flex-column flex-md-row justify-content-between">
             <i class="fa fa-bars hamburger-menu d-md-none"></i>
-            <a class="py-2 d-none d-md-inline-block" href="./index.html" aria-label="čelenka logo">
-                <img src="./assets/celenka-logo.png" alt="čelenka logo" width="25">
+            <a class="py-2 d-none d-md-inline-block" href="/index.html" aria-label="čelenka logo">
+                <img src="/assets/celenka-logo.png" alt="čelenka logo" width="25">
             </a>
-            <a class="py-2 d-none d-md-inline-block" href="#products">Čelenky</a>
-            <a class="py-2 d-none d-md-inline-block" href="./index.html#about">Príbeh</a>
-            <a class="py-2 d-none d-md-inline-block" href="#order-form">Objednávací formulár</a>
+            <a class="py-2 d-none d-md-inline-block" href="/index.html#products">Čelenky</a>
+            <a class="py-2 d-none d-md-inline-block" href="/index.html#about">Príbeh</a>
+            <a class="py-2 d-none d-md-inline-block" href="/index.html#order-form">Objednávací formulár</a>
             <a class="py-2 d-none d-md-inline-block mb-md-0 mb-3" href="#footer">Kontakt</a>
         </nav>
     </header>
     <main class="container-lg">
+      <!-- FILTERS -->
+      <div class="row mt-5">
+        <div class="col-md-6 offset-md-6">
+          <select id="type-filter" class="form-select" aria-label="Filter produktov podľa typu">
+            <option selected>Filtrovať podľa typu</option>
+            <option value="Všetky">Všetky</option> 
+              <option value="Čelenka - dievča">Čelenka - dievča</option> 
+              <option value="Turban">Turban</option> 
+              <option value="Klobúk - dievča">Klobúk - dievča</option> 
+              <option value="Korunka - dievča">Korunka - dievča</option> 
+              <option value="Čiapka - dievča">Čiapka - dievča</option> 
+              <option value="Set">Set</option> 
+              <option value="Klobúk - chlapec">Klobúk - chlapec</option> 
+              <option value="Čelenka - chlapec">Čelenka - chlapec</option> 
+              <option value="Korunka - chlapec">Korunka - chlapec</option> 
+              <option value="Čiapka - chlapec">Čiapka - chlapec</option> 
+              <option value="Gumička do vlasov/ scrunchie">Gumička do vlasov/ scrunchie</option> 
+          </select>
+        </div>
+      </div>
+
       <!-- PRODUCTS -->
       <section id="products">
         <h2 class="mb-3 mt-5">
@@ -34,546 +55,655 @@
             Dcéra
         </h2>
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0693.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s dvojitou mašľou Lea" loading="lazy" data-src-large="./assets/products/jpg/IMG_0693.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s dvojitou mašľou Lea</h5>
-                            <p class="card-text">Čelenka s dvojitou mašličkou na gumku so vzormi poľných kvetov. Zloženie: úplet: 95% bavlna,5% elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0675.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Lea" loading="lazy" data-src-large="./assets/products/jpg/IMG_0675.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Lea</h5>
-                            <p class="card-text">Jednovrstvový turban s mašličkou so vzormi poľných kvetov vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0645.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s dvojitou mašľou Beáta " loading="lazy" data-src-large="./assets/products/jpg/IMG_0645.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s dvojitou mašľou Beáta </h5>
-                            <p class="card-text">Čelenka s dvojitou mašličkou na gumku staroružovej farby so slovenskými vzormi. Zloženie: teplákovina: 95% bavlna,5% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0637.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Adriána" loading="lazy" data-src-large="./assets/products/jpg/IMG_0637.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Adriána</h5>
-                            <p class="card-text">Čelenka s mašličkou na gumku so vzormi slovenskej modrotlače. Zloženie: teplákovina: 95% bavlna,5% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0660.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s dvojitou mašľou Alexandra" loading="lazy" data-src-large="./assets/products/jpg/IMG_0660.jpeg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s dvojitou mašľou Alexandra</h5>
-                            <p class="card-text">Biela čelenka s dvojitou mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0649.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s dvojitou mašľou Sára" loading="lazy" data-src-large="./assets/products/jpg/IMG_0649.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s dvojitou mašľou Sára</h5>
-                            <p class="card-text">Čelenka s dvojitou mašličkou na gumku s bohatými vzormi kvetov. Zloženie: úplet: 95% bavlna,5% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0666.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Diana" loading="lazy" data-src-large="./assets/products/jpg/IMG_0666.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Diana</h5>
-                            <p class="card-text">Svetlo ružová čelenka s mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0671.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Alexandra" loading="lazy" data-src-large="./assets/products/jpg/IMG_0671.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Alexandra</h5>
-                            <p class="card-text">Jednovrstvový turban s mašličkou bielej farby vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0970.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Alexandra" loading="lazy" data-src-large="./assets/products/jpg/IMG_0970.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Alexandra</h5>
-                            <p class="card-text">Biela čelenka s mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0667.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Viktória " loading="lazy" data-src-large="./assets/products/jpg/IMG_0667.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Viktória </h5>
-                            <p class="card-text">Čelenka s mašličkou na gumku so vzormi exotických kvetov. Zloženie: úplet: 95% bavlna,5% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0677.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Viktória " loading="lazy" data-src-large="./assets/products/jpg/IMG_0677.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Viktória </h5>
-                            <p class="card-text">Jednovrstvový turban s mašličkou so vzormi exotických kvetov vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0959.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s dvojitou mašľou Viktória " loading="lazy" data-src-large="./assets/products/jpg/IMG_0959.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s dvojitou mašľou Viktória </h5>
-                            <p class="card-text">Čelenka s dvojitou mašličkou na gumku so vzormi exotických kvetov. Zloženie: úplet: 96% bavlna,4% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0657.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Hana - limitovaná edícia " loading="lazy" data-src-large="./assets/products/jpg/IMG_0657.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Hana - limitovaná edícia </h5>
-                            <p class="card-text">Čelenka s mašličkou na gumku s bodkami a srdiečkami. Zloženie: teplákovina: 95% bavlna,5% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0641.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s dvojitou mašľou Martina " loading="lazy" data-src-large="./assets/products/jpg/IMG_0641.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s dvojitou mašľou Martina </h5>
-                            <p class="card-text">Čelenka s dvojitou mašličkou na gumku s pestrofarebnými trojuholníkmi. Zloženie: úplet: 96% bavlna,4% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0646.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s dvojitou mašľou Eliška " loading="lazy" data-src-large="./assets/products/jpg/IMG_0646.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s dvojitou mašľou Eliška </h5>
-                            <p class="card-text">Čelenka s dvojitou mašličkou na gumku s milými detskými vzormi ružovej farby. Zloženie: úplet: 96% bavlna,4% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0668.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Eliška" loading="lazy" data-src-large="./assets/products/jpg/IMG_0668.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Eliška</h5>
-                            <p class="card-text">Jednovrstvový turban s milými detskými vzormi ružovej farby vhodný na jar či leto. Zloženie: úplet: 96% bavlna,4% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0661.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Martuška - limitovaná edícia" loading="lazy" data-src-large="./assets/products/jpg/IMG_0661.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Martuška - limitovaná edícia</h5>
-                            <p class="card-text">Čelenka s mašličkou na gumku s farebnými vzormi. Zloženie: úplet: 95% bavlna,5% elastan </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0676.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Adela" loading="lazy" data-src-large="./assets/products/jpg/IMG_0676.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Adela</h5>
-                            <p class="card-text">Jednovrstvový turban s letnými vzormi vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0651.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Nina" loading="lazy" data-src-large="./assets/products/jpg/IMG_0651.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Nina</h5>
-                            <p class="card-text">Čelenka s mašličkou na gumku zelenej farby. Zloženie: patent: 97% bavlna,3% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0695.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Nina " loading="lazy" data-src-large="./assets/products/jpg/IMG_0695.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Nina </h5>
-                            <p class="card-text">Zelený jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0653.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Kristína " loading="lazy" data-src-large="./assets/products/jpg/IMG_0653.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Kristína </h5>
-                            <p class="card-text">Čelenka s mašličkou na gumku béžovej farby. Zloženie: patent: 97% bavlna,3% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0673.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Kristína" loading="lazy" data-src-large="./assets/products/jpg/IMG_0673.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Kristína</h5>
-                            <p class="card-text">Béžový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0709.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Sofia" loading="lazy" data-src-large="./assets/products/jpg/IMG_0709.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Sofia</h5>
-                            <p class="card-text">Čelenka s mašličkou na gumku ružovej farby. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0674.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Sofia" loading="lazy" data-src-large="./assets/products/jpg/IMG_0674.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Sofia</h5>
-                            <p class="card-text">Ružový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0672.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka s mašľou Ema" loading="lazy" data-src-large="./assets/products/jpg/IMG_0672.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka s mašľou Ema</h5>
-                            <p class="card-text">Čelenka s mašličkou na gumku púdrovo ružovej farby. Zloženie: patent: 97% bavlna,3% elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0669.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Turban Ema" loading="lazy" data-src-large="./assets/products/jpg/IMG_0669.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Turban Ema</h5>
-                            <p class="card-text">Púdrovo ružový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1115.jpg" class="card-img-top cursor-pointer" alt="Čelenka Klobúk Marianna" loading="lazy" data-src-large="./assets/products/jpg/IMG_1115.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Klobúk Marianna</h5>
-                            <p class="card-text">Ľahký letný rastúci klobúčik na gumku svetloružovej farby zo 100% bavlny. Zloženie: bavlna: 100%. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€8.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1119.jpg" class="card-img-top cursor-pointer" alt="Čelenka Klobúk Olívia" loading="lazy" data-src-large="./assets/products/jpg/IMG_1119.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Klobúk Olívia</h5>
-                            <p class="card-text">Ľahký letný rastúci klobúčik na gumku horčicovej farby zo 100% bavlny. Zloženie: bavlna: 100%.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€8.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1305.jpg" class="card-img-top cursor-pointer" alt="Čelenka Klobúk pre dievčatko - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1305.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Klobúk pre dievčatko - rôzne farby</h5>
-                            <p class="card-text">Ľahký letný rastúci klobúčik na gumku rôznych farieb zo 100% bavlny. Klobúk Paulína - béžová farba, Klobúk Olívia - horčicová farba, Klobúk Júlia - cyklaménová farba, Klobúk Marianna - svetloružová farba. Zloženie: bavlna: 100%.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€8.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0718.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Dominika" loading="lazy" data-src-large="./assets/products/jpg/IMG_0718.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Dominika</h5>
-                            <p class="card-text">Prekrížená čelenka staroružovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0716.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Gréta" loading="lazy" data-src-large="./assets/products/jpg/IMG_0716.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Gréta</h5>
-                            <p class="card-text">Prekrížená čelenka béžovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0719.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Veronika" loading="lazy" data-src-large="./assets/products/jpg/IMG_0719.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Veronika</h5>
-                            <p class="card-text">Prekrížená čelenka cyklaménovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0712.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Simona" loading="lazy" data-src-large="./assets/products/jpg/IMG_0712.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Simona</h5>
-                            <p class="card-text">Prekrížená čelenka tmavozelenej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0711.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Nikola" loading="lazy" data-src-large="./assets/products/jpg/IMG_0711.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Nikola</h5>
-                            <p class="card-text">Prekrížená čelenka parížskej modrej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0721.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Katarína" loading="lazy" data-src-large="./assets/products/jpg/IMG_0721.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Katarína</h5>
-                            <p class="card-text">Prekrížená čelenka tmavo tyrkysovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0717.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Lenka" loading="lazy" data-src-large="./assets/products/jpg/IMG_0717.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Lenka</h5>
-                            <p class="card-text">Prekrížená čelenka mätovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0714.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Barbara" loading="lazy" data-src-large="./assets/products/jpg/IMG_0714.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Barbara</h5>
-                            <p class="card-text">Prekrížená čelenka karamelovej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0713.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Denisa" loading="lazy" data-src-large="./assets/products/jpg/IMG_0713.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Denisa</h5>
-                            <p class="card-text">Prekrížená čelenka červenej farby. Zloženie: úplet: 95% bavlna,5 % elastan </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0715.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Prekrížená čelenka Bianka - limitovaná edícia" loading="lazy" data-src-large="./assets/products/jpg/IMG_0715.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Prekrížená čelenka Bianka - limitovaná edícia</h5>
-                            <p class="card-text">Prekrížená čelenka mango farby. Zloženie: úplet: 95% bavlna,5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1318.jpg" class="card-img-top cursor-pointer" alt="Čelenka Korunka z úpletu Emily" loading="lazy" data-src-large="./assets/products/jpg/IMG_1318.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Korunka z úpletu Emily</h5>
-                            <p class="card-text">Korunka z úpletu pre dievčatko svetlobéžovej farby vhodná na teplejšie dni. Zloženie: úplet: 95% bavlna,5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1300.jpg" class="card-img-top cursor-pointer" alt="Čelenka Korunka z úpletu - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1300.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Korunka z úpletu - rôzne farby</h5>
-                            <p class="card-text">Korunka z úpletu pre dievčatko rôznych farieb vhodná na teplejšie dni. Korunka Gréta - tmavobéžová farba, Korunka Emily - svetlobéžová farba, Korunka Alexandra - biela farba, Korunka Veronika - cyklaménová farba, Korunka Diana - svetloružová farba, Korunka Bianka - mango farba, Korunka Radoslava - fialová farba. Zloženie: úplet: 95% bavlna,5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1311.jpg" class="card-img-top cursor-pointer" alt="Čelenka Korunka z patentu Daniela" loading="lazy" data-src-large="./assets/products/jpg/IMG_1311.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Korunka z patentu Daniela</h5>
-                            <p class="card-text">Korunka z patentu pre dievčatko fialovej farby vhodná na chladnejšie dni. Zloženie: patent: 97% bavlna,3 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.50</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1293.jpg" class="card-img-top cursor-pointer" alt="Čelenka Korunka z patentu - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1293.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Korunka z patentu - rôzne farby</h5>
-                            <p class="card-text">Korunka z patentu pre dievčatko rôznych farieb vhodná na chladnejšie dni. Korunka Kristína - béžová farba, Korunka Ema - púdrovo ružová farba, Korunka Daniela - fialová farba, Korunka Marína - cyklaménová farba, Korunka Sofia - ružová farba. Zloženie: patent: 97% bavlna, 3 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.50</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1320.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čiapka z rebrovaného úpletu Zoja" loading="lazy" data-src-large="./assets/products/jpg/IMG_1320.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čiapka z rebrovaného úpletu Zoja</h5>
-                            <p class="card-text">Jednovrstvová čiapka z rebrovaného úpletu ružovej farby vhodná na jesenné dni. Zloženie: úplet: 95% bavlna, 5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1321.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čiapka z rebrovaného úpletu - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1321.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čiapka z rebrovaného úpletu - rôzne farby</h5>
-                            <p class="card-text">Jednovrstvová čiapka z rebrovaného úpletu rôznych farieb vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0693.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s dvojitou mašľou Lea" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-dvojitou-maslou-lea.html">Čelenka s dvojitou mašľou Lea</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0675.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Lea" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-lea.html">Turban Lea</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0645.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s dvojitou mašľou Beáta " loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-dvojitou-maslou-beata.html">Čelenka s dvojitou mašľou Beáta </a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0637.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Adriána" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-adriana.html">Čelenka s mašľou Adriána</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0660.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s dvojitou mašľou Alexandra" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-dvojitou-maslou-alexandra.html">Čelenka s dvojitou mašľou Alexandra</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0649.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s dvojitou mašľou Sára" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-dvojitou-maslou-sara.html">Čelenka s dvojitou mašľou Sára</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0666.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Diana" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-diana.html">Čelenka s mašľou Diana</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0671.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Alexandra" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-alexandra.html">Turban Alexandra</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0970.jpg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Alexandra" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-alexandra.html">Čelenka s mašľou Alexandra</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0667.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Viktória " loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-viktoria.html">Čelenka s mašľou Viktória </a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0677.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Viktória " loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-viktoria.html">Turban Viktória </a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0959.jpg" class="card-img-top rounded-0" alt="Čelenka Čelenka s dvojitou mašľou Viktória " loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-dvojitou-maslou-viktoria.html">Čelenka s dvojitou mašľou Viktória </a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0657.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Hana" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-hana.html">Čelenka s mašľou Hana</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0641.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s dvojitou mašľou Martina " loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-dvojitou-maslou-martina.html">Čelenka s dvojitou mašľou Martina </a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0646.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s dvojitou mašľou Eliška " loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-dvojitou-maslou-eliska.html">Čelenka s dvojitou mašľou Eliška </a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0668.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Eliška" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-eliska.html">Turban Eliška</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0661.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Martuška" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-martuska.html">Čelenka s mašľou Martuška</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0676.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Adela" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-adela.html">Turban Adela</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0651.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Nina" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-nina.html">Čelenka s mašľou Nina</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0695.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Nina " loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-nina.html">Turban Nina </a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0653.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Kristína " loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-kristina.html">Čelenka s mašľou Kristína </a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0673.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Kristína" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-kristina.html">Turban Kristína</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0709.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Sofia" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-sofia.html">Čelenka s mašľou Sofia</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0674.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Sofia" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-sofia.html">Turban Sofia</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0672.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenka s mašľou Ema" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenka-s-maslou-ema.html">Čelenka s mašľou Ema</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Turban">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0669.jpeg" class="card-img-top rounded-0" alt="Čelenka Turban Ema" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€6.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/turban-ema.html">Turban Ema</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Klobúk - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1115.jpg" class="card-img-top rounded-0" alt="Čelenka Klobúk Marianna" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€8.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/klobuk-marianna.html">Klobúk Marianna</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Klobúk - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1119.jpg" class="card-img-top rounded-0" alt="Čelenka Klobúk Olívia" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€8.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/klobuk-olivia.html">Klobúk Olívia</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Klobúk - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1120.jpg" class="card-img-top rounded-0" alt="Čelenka Klobúk pre dievčatko - rôzne farby" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€8.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/klobuk-pre-dievcatko-rozne-farby.html">Klobúk pre dievčatko - rôzne farby</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0718.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Dominika" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-dominika.html">Prekrížená čelenka Dominika</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0716.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Gréta" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-greta.html">Prekrížená čelenka Gréta</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0719.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Veronika" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-veronika.html">Prekrížená čelenka Veronika</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0712.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Simona" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-simona.html">Prekrížená čelenka Simona</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0711.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Nikola" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-nikola.html">Prekrížená čelenka Nikola</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0721.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Katarína" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-katarina.html">Prekrížená čelenka Katarína</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0717.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Lenka" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-lenka.html">Prekrížená čelenka Lenka</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0714.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Barbara" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-barbara.html">Prekrížená čelenka Barbara</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0713.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Denisa" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-denisa.html">Prekrížená čelenka Denisa</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0715.jpeg" class="card-img-top rounded-0" alt="Čelenka Prekrížená čelenka Bianka" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/prekrižena-celenka-bianka.html">Prekrížená čelenka Bianka</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Korunka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1318.jpg" class="card-img-top rounded-0" alt="Čelenka Korunka z úpletu Emily" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/korunka-z-upletu-emily.html">Korunka z úpletu Emily</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Korunka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1318.jpg" class="card-img-top rounded-0" alt="Čelenka Korunka z úpletu - rôzne farby" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€4.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/korunka-z-upletu-rozne-farby.html">Korunka z úpletu - rôzne farby</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Korunka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1311.jpg" class="card-img-top rounded-0" alt="Čelenka Korunka z patentu Daniela" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/korunka-z-patentu-daniela.html">Korunka z patentu Daniela</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Korunka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1327_Original.jpg" class="card-img-top rounded-0" alt="Čelenka Korunka z patentu - rôzne farby" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/korunka-z-patentu-rozne-farby.html">Korunka z patentu - rôzne farby</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čiapka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1320.jpg" class="card-img-top rounded-0" alt="Čelenka Čiapka z rebrovaného úpletu Zoja" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/ciapka-z-rebrovaneho-upletu-zoja.html">Čiapka z rebrovaného úpletu Zoja</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čiapka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1309_Original.jpg" class="card-img-top rounded-0" alt="Čelenka Čiapka z rebrovaného úpletu - rôzne farby" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/ciapka-z-rebrovaneho-upletu-rozne-farby.html">Čiapka z rebrovaného úpletu - rôzne farby</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1618.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Esme" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-esme.html">Mini čelenka Esme</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1621.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Mia" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-mia.html">Mini čelenka Mia</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1623.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Bella" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-bella.html">Mini čelenka Bella</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1624.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Luna" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-luna.html">Mini čelenka Luna</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1620.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Ava" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-ava.html">Mini čelenka Ava</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1619.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Lara" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-lara.html">Mini čelenka Lara</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1622.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Aurora" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-aurora.html">Mini čelenka Aurora</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1638.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Charlotte" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-charlotte.html">Mini čelenka Charlotte</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1527.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Adriána" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-adriana.html">Mini čelenka Adriána</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1665.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Beáta" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-beata.html">Mini čelenka Beáta</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1669.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Martina" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-martina.html">Mini čelenka Martina</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1669.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Sára" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-sara.html">Mini čelenka Sára</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1667.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Viktória" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-viktoria.html">Mini čelenka Viktória</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - dievča">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1666.jpg" class="card-img-top rounded-0" alt="Čelenka Mini čelenka Lea" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€2.50</div>
+                        <h5 class="card-title">
+                          <a href="./products/mini-celenka-lea.html">Mini čelenka Lea</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
         </div>
 
         <h2 class="mb-3 mt-5">
@@ -581,186 +711,325 @@
             Mama&Dcéra
         </h2>
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0710.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Sára" loading="lazy" data-src-large="./assets/products/jpg/IMG_0710.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Sára</h5>
-                            <p class="card-text">Čelenky pre mamku a dcérku s bohatými vzormi kvetov. Zloženie: úplet: 95% bavlna,5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€11.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0656.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Hana - limitovaná edícia" loading="lazy" data-src-large="./assets/products/jpg/IMG_0656.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Hana - limitovaná edícia</h5>
-                            <p class="card-text">Čelenky pre mamku a dcérku s bodkami a srdiečkami. Zloženie: teplákovina: 95% bavlna,5% elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€11.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0642.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Beáta" loading="lazy" data-src-large="./assets/products/jpg/IMG_0642.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Beáta</h5>
-                            <p class="card-text">Čelenky pre mamku a dcérku staroružovej farby so slovenskými vzormi. Zloženie: teplákovina: 95% bavlna,5% elastan.   </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€11.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0639.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Martina" loading="lazy" data-src-large="./assets/products/jpg/IMG_0639.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Martina</h5>
-                            <p class="card-text">Čelenky pre mamku a dcérku s pestrofarebnými trojuholníkmi. Zloženie: úplet: 96% bavlna,4 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€11.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0638.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Adriána" loading="lazy" data-src-large="./assets/products/jpg/IMG_0638.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Adriána</h5>
-                            <p class="card-text">Čelenky pre mamku a dcérku so vzormi slovenskej modrotlače. Zloženie: teplákovina: 95% bavlna,5% elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€11.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0681.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Dominika" loading="lazy" data-src-large="./assets/products/jpg/IMG_0681.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Dominika</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku staroružovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0687.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Gréta" loading="lazy" data-src-large="./assets/products/jpg/IMG_0687.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Gréta</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku béžovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0692.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Veronika" loading="lazy" data-src-large="./assets/products/jpg/IMG_0692.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Veronika</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku cyklaménovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0689.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Simona" loading="lazy" data-src-large="./assets/products/jpg/IMG_0689.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Simona</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku tmavozelenej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0686.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Nikola" loading="lazy" data-src-large="./assets/products/jpg/IMG_0686.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Nikola</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku parížsko modrej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0694.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Katarína" loading="lazy" data-src-large="./assets/products/jpg/IMG_0694.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Katarína</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku tyrkysovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0683.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Lenka" loading="lazy" data-src-large="./assets/products/jpg/IMG_0683.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Lenka</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku mätovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0688.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Barbara" loading="lazy" data-src-large="./assets/products/jpg/IMG_0688.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Barbara</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku karamelovej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0682.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Denisa" loading="lazy" data-src-large="./assets/products/jpg/IMG_0682.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Denisa</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku červenej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0684.jpeg" class="card-img-top cursor-pointer" alt="Čelenka Čelenky Bianka - limitovaná edícia" loading="lazy" data-src-large="./assets/products/jpg/IMG_0684.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenky Bianka - limitovaná edícia</h5>
-                            <p class="card-text">Prekrížené čelenky pre mamku a dcérku mango farby. Zloženie: úplet: 95% bavlna,5 % elastan.  </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€9.90</strong>
-                        </div>
-                        </div>
-                    </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0710.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Sára" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€11.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-sara.html">Čelenky Sára</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0656.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Hana" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€11.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-hana.html">Čelenky Hana</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0642.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Beáta" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€11.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-beata.html">Čelenky Beáta</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0639.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Martina" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€11.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-martina.html">Čelenky Martina</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0638.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Adriána" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€11.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-adriana.html">Čelenky Adriána</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0681.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Dominika" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-dominika.html">Čelenky Dominika</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0687.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Gréta" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-greta.html">Čelenky Gréta</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0692.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Veronika" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-veronika.html">Čelenky Veronika</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0689.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Simona" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-simona.html">Čelenky Simona</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0686.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Nikola" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-nikola.html">Čelenky Nikola</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0694.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Katarína" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-katarina.html">Čelenky Katarína</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0683.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Lenka" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-lenka.html">Čelenky Lenka</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0688.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Barbara" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-barbara.html">Čelenky Barbara</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0682.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Denisa" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-denisa.html">Čelenky Denisa</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_0684.jpeg" class="card-img-top rounded-0" alt="Čelenka Čelenky Bianka" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€9.90</div>
+                        <h5 class="card-title">
+                          <a href="./products/celenky-bianka.html">Čelenky Bianka</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1613.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Esme" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-esme.html">Set scrunchie + mini čelenka Esme</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1605.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Mia" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-mia.html">Set scrunchie + mini čelenka Mia</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1603.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Bella" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-bella.html">Set scrunchie + mini čelenka Bella</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1609.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Luna" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-luna.html">Set scrunchie + mini čelenka Luna</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1607.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Ava" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-ava.html">Set scrunchie + mini čelenka Ava</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1615.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Lara" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-lara.html">Set scrunchie + mini čelenka Lara</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1611.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Aurora" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-aurora.html">Set scrunchie + mini čelenka Aurora</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1639.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Charlotte" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-charlotte.html">Set scrunchie + mini čelenka Charlotte</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1648.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Adriána" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-adriana.html">Set scrunchie + mini čelenka Adriána</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1663.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Beáta" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-beata.html">Set scrunchie + mini čelenka Beáta</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1651.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Martina" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-martina.html">Set scrunchie + mini čelenka Martina</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1654.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Sára" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-sara.html">Set scrunchie + mini čelenka Sára</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1657.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Viktória" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-viktoria.html">Set scrunchie + mini čelenka Viktória</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Set">
+                    <div class="card h-100">
+                    <img src="/assets/products/jpg/thumb/IMG_1661.jpg" class="card-img-top rounded-0" alt="Čelenka Set scrunchie + mini čelenka Lea" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">€5.00</div>
+                        <h5 class="card-title">
+                          <a href="./products/set-scrunchie-+-mini-celenka-lea.html">Set scrunchie + mini čelenka Lea</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
         </div>
 
         <h2 class="mb-3 mt-5">
@@ -768,150 +1037,310 @@
             Chlapček
         </h2>
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1116.jpg" class="card-img-top cursor-pointer" alt="Čelenka Klobúk Teo" loading="lazy" data-src-large="./assets/products/jpg/IMG_1116.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Klobúk Teo</h5>
-                            <p class="card-text">Ľahký letný rastúci klobúčik na gumku svetlomodrej farby zo 100% bavlny. Zloženie: bavlna: 100%.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€8.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1303.jpg" class="card-img-top cursor-pointer" alt="Čelenka Klobúk pre chlapčeka - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1303.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Klobúk pre chlapčeka - rôzne farby</h5>
-                            <p class="card-text">Ľahký letný rastúci klobúčik na gumku rôznych farieb zo 100% bavlny. Klobúk Pavol - béžová farba, Klobúk Teo - svetlomodrá farba, Klobúk Peter - mätová farba. Zloženie: bavlna: 100%.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€8.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_0968.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka Michal" loading="lazy" data-src-large="./assets/products/jpg/IMG_0968.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka Michal</h5>
-                            <p class="card-text">Jemná čelenka pre chlapčeka mätovej farby. Zloženie: úplet: 95% bavlna,5 % elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1302.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čelenka pre chlapčeka - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1302.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čelenka pre chlapčeka - rôzne farby</h5>
-                            <p class="card-text">Jemná čelenka pre chlapčeka rôznych farieb. Čelenka Gregor - tmavobéžová farba, Čelenka Emil - svetlobéžová farba, Čelenka Adam - baby blue farba, Čelenka Damián - baby blue tmavá farba, Čelenka Radoslav - fialová farba, Čelenka Michal - mätová farba, Čelenka Benjamín - karamelová farba, Čelenka Karol - tmavotyrkysová farba.  Zloženie: úplet: 95% bavlna,5 % elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1323.jpg" class="card-img-top cursor-pointer" alt="Čelenka Korunka z úpletu Viktor" loading="lazy" data-src-large="./assets/products/jpg/IMG_1323.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Korunka z úpletu Viktor</h5>
-                            <p class="card-text">Korunka z úpletu pre chlapčeka tmavozelenej farby vhodná na teplejšie dni. Zloženie: úplet: 95% bavlna,5 % elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1302_2.jpg" class="card-img-top cursor-pointer" alt="Čelenka Korunka z úpletu - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1302_2.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Korunka z úpletu - rôzne farby</h5>
-                            <p class="card-text">Korunka z úpletu pre chlapčeka rôznych farieb vhodná na teplejšie dni. Korunka Gregor - tmavobéžová farba, Korunka Emil - svetlobéžová farba, Korunka Adam - baby blue farba, Korunka Damián - baby blue tmavá farba, Korunka Radoslav - fialová farba, Korunka Michal - mätová farba, Korunka Benjamín - karamelová farba, Korunka Karol - tmavotyrkysová farba.  Zloženie: úplet: 95% bavlna,5 % elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€4.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1313.jpg" class="card-img-top cursor-pointer" alt="Čelenka Korunka z patentu Jakub" loading="lazy" data-src-large="./assets/products/jpg/IMG_1313.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Korunka z patentu Jakub</h5>
-                            <p class="card-text">Korunka z patentu pre chlapčeka mätovej farby vhodná do chladnejšieho počasia. Zloženie: patent: 97% bavlna,3% elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.50</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1295.jpg" class="card-img-top cursor-pointer" alt="Čelenka Korunka z patentu - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1295.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Korunka z patentu - rôzne farby</h5>
-                            <p class="card-text">Korunka z patentu pre chlapčeka rôznych farieb vhodná do chladnejšieho počasia. Korunka Kristián - béžová farba, Korunka Roman - karamelová farba, Korunka Daniel - fialová farba, Korunka Viliam - parížska modrá farba, Korunka Radoslav - fialová farba, Korunka Jakub - mätová farba.  Zloženie: patent: 97% bavlna,3% elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.50</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1319.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čiapka s uškami z rebrovaného úpletu Silvester" loading="lazy" data-src-large="./assets/products/jpg/IMG_1319.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čiapka s uškami z rebrovaného úpletu Silvester</h5>
-                            <p class="card-text">Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Zloženie: úplet: 95% bavlna, 5% elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1322.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čiapka s uškami z rebrovaného úpletu - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1322.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čiapka s uškami z rebrovaného úpletu - rôzne farby</h5>
-                            <p class="card-text">Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrik - sivá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Silvester - béžová farba Zloženie: úplet: 95% bavlna, 5% elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€5.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1362.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čiapka s uškami z patentu Bonifác" loading="lazy" data-src-large="./assets/products/jpg/IMG_1362.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čiapka s uškami z patentu Bonifác</h5>
-                            <p class="card-text">Dvojvrstvová čiapka s uškami z rebrovaného patentu mätovej farby vhodná na zimu. Zloženie: patent: 97% bavlna,3% elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="./assets/products/jpg/thumb/IMG_1295_2.jpg" class="card-img-top cursor-pointer" alt="Čelenka Čiapka s uškami z patentu - rôzne farby" loading="lazy" data-src-large="./assets/products/jpg/IMG_1295_2.jpg">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Čiapka s uškami z patentu - rôzne farby</h5>
-                            <p class="card-text">Dvojvrstvová čiapka s uškami z rebrovaného patentu rôznych farieb vhodná na zimu. Čiapka Florián - béžová farba, Čiapka Benjamín - karamelová farba, Čiapka Pankrác - fialová farba, Čiapka Servác - parížsko modrá farba, Čiapka Bonifác - mätová farba. Zloženie: patent: 97% bavlna,3% elastan.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>€6.90</strong>
-                        </div>
-                        </div>
-                    </article>
+                <article class="col" data-type="Klobúk - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1116.jpg" class="card-img-top rounded-0" alt="Čelenka Klobúk Teo" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€8.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/klobuk-teo.html">Klobúk Teo</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Klobúk - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1120.jpg" class="card-img-top rounded-0" alt="Čelenka Klobúk pre chlapčeka - rôzne farby" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€8.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/klobuk-pre-chlapceka-rozne-farby.html">Klobúk pre chlapčeka - rôzne farby</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_0968.jpg" class="card-img-top rounded-0" alt="Čelenka Čelenka Michal" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€4.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/celenka-michal.html">Čelenka Michal</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Korunka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1323.jpg" class="card-img-top rounded-0" alt="Čelenka Korunka z úpletu Viktor" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€4.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/korunka-z-upletu-viktor.html">Korunka z úpletu Viktor</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čelenka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_0968.jpg" class="card-img-top rounded-0" alt="Čelenka Čelenka pre chlapčeka - rôzne farby" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€4.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/celenka-pre-chlapceka-rozne-farby.html">Čelenka pre chlapčeka - rôzne farby</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Korunka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1323.jpg" class="card-img-top rounded-0" alt="Čelenka Korunka z úpletu - rôzne farby" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€4.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/korunka-z-upletu-rozne-farby.html">Korunka z úpletu - rôzne farby</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Korunka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1313.jpg" class="card-img-top rounded-0" alt="Čelenka Korunka z patentu Jakub" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€5.50</div>
+                          <h5 class="card-title">
+                            <a href="./products/korunka-z-patentu-jakub.html">Korunka z patentu Jakub</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Korunka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1327_Original.jpg" class="card-img-top rounded-0" alt="Čelenka Korunka z patentu - rôzne farby" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€5.50</div>
+                          <h5 class="card-title">
+                            <a href="./products/korunka-z-patentu-rozne-farby.html">Korunka z patentu - rôzne farby</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čiapka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1319.jpg" class="card-img-top rounded-0" alt="Čelenka Čiapka s uškami z rebrovaného úpletu Silvester" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€5.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/ciapka-s-uskami-z-rebrovaneho-upletu-silvester.html">Čiapka s uškami z rebrovaného úpletu Silvester</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čiapka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1309_Original.jpg" class="card-img-top rounded-0" alt="Čelenka Čiapka s uškami z rebrovaného úpletu - rôzne farby" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€5.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/ciapka-s-uskami-z-rebrovaneho-upletu-rozne-farby.html">Čiapka s uškami z rebrovaného úpletu - rôzne farby</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čiapka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1362.jpg" class="card-img-top rounded-0" alt="Čelenka Čiapka s uškami z patentu Bonifác" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€6.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/ciapka-s-uskami-z-patentu-bonifac.html">Čiapka s uškami z patentu Bonifác</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Čiapka - chlapec">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1356_Original.jpg" class="card-img-top rounded-0" alt="Čelenka Čiapka s uškami z patentu - rôzne farby" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€6.90</div>
+                          <h5 class="card-title">
+                            <a href="./products/ciapka-s-uskami-z-patentu-rozne-farby.html">Čiapka s uškami z patentu - rôzne farby</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+        </div>
+
+        <h2 class="mb-3 mt-5">
+            <small class="text-muted">kolekcia</small>
+            Žena
+        </h2>
+        <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1454.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Esme" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-esme.html">Gumička do vlasov/ scrunchie Esme</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1456.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Mia" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-mia.html">Gumička do vlasov/ scrunchie Mia</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1461.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Bella" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-bella.html">Gumička do vlasov/ scrunchie Bella</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1458.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Luna" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-luna.html">Gumička do vlasov/ scrunchie Luna</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1460.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Ava" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-ava.html">Gumička do vlasov/ scrunchie Ava</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1457.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Lara" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-lara.html">Gumička do vlasov/ scrunchie Lara</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1459.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Aurora" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-aurora.html">Gumička do vlasov/ scrunchie Aurora</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1462.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Charlotte" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-charlotte.html">Gumička do vlasov/ scrunchie Charlotte</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1683.HEIC.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Adriána" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-adriana.html">Gumička do vlasov/ scrunchie Adriána</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1662.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Beáta" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-beata.html">Gumička do vlasov/ scrunchie Beáta</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1650.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Martina" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-martina.html">Gumička do vlasov/ scrunchie Martina</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1653.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Sára" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-sara.html">Gumička do vlasov/ scrunchie Sára</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1656.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Viktória" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-viktoria.html">Gumička do vlasov/ scrunchie Viktória</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1659.jpg" class="card-img-top rounded-0" alt="Čelenka Gumička do vlasov/ scrunchie Lea" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€3.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/gumicka-do-vlasov/-scrunchie-lea.html">Gumička do vlasov/ scrunchie Lea</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+                <article class="col" data-type="Gumička do vlasov/ scrunchie">
+                    <div class="card h-100">
+                      <img src="/assets/products/jpg/thumb/IMG_1596.jpg" class="card-img-top rounded-0" alt="Čelenka Wings schrunchie - rôzne farby" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">€5.00</div>
+                          <h5 class="card-title">
+                            <a href="./products/wings-schrunchie-rozne-farby.html">Wings schrunchie - rôzne farby</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
         </div>
       </section>
 
@@ -973,14 +1402,6 @@
           <button type="submit" class="btn btn-berry-patch w-100">Odoslať</button>
         </form>
       </section>
-
-      <!-- IMG VIEW -->
-      <div id="img-preview-backdrop" style="display: none;">
-        <div class="img-preview-container position-relative">
-          <img id="img-preview" src="" style="max-width: 800px; width: 100%;"/>
-          <button id="img-preview-close-btn" type="button" class="btn-close" aria-label="Close"></button>
-        </div>
-      </div>
 
       <!-- MODALS -->
       <div class="modal fade" id="privacy-policy-modal" tabindex="-1" aria-labelledby="privacy-policy-modal-heading" aria-hidden="true">
@@ -1118,7 +1539,7 @@
               <div class="modal-body">
                   <p>Obvod hlavy meriame podľa obrázka nižšie:</p>
                   <div class="text-center mt-5">
-                      <img src="./assets/measurement.png" alt="Ako odmerať obvod hlavy obrázok" loading="lazy" />
+                      <img src="/assets/measurement.png" alt="Ako odmerať obvod hlavy obrázok" loading="lazy" />
                   </div>
               </div>
               <div class="modal-footer">
@@ -1132,7 +1553,7 @@
         <footer id="footer" class="container py-5"> 
           <div class="row">
             <div class="col-12 col-md">
-              <img src="./assets/celenka-logo.png" alt="čelenka logo" width="25">
+              <img src="/assets/celenka-logo.png" alt="čelenka logo" width="25">
               <small class="d-block mb-3 text-muted">&copy; 2022</small>
             </div>
             <div class="col-6 col-md">
@@ -1163,7 +1584,7 @@
             </div>
           </div>
         </footer>
-    <script type="text/javascript" src="./assets/js/common.js"></script>
+    <script type="text/javascript" src="/assets/js/common.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,28 +1,32 @@
 const hb = require("handlebars");
 const fs = require('fs');
+const path = require('path');
 
+const helpers = require('./utils/helpers');
+
+// Prepare data
 const data = require('./data.json');
+data.products = data.products.map(product => {
+    product.slug = `./products/${helpers.toSlug(product.title)}.html`;
+    return product;
+});
 data.kolekciaDcera = data.products.filter(product => product.category === 'Dcéra');
 data.kolekciaMamaADcera = data.products.filter(product => product.category === 'Mama&Dcéra');
 data.kolekciaChlapcek = data.products.filter(product => product.category === 'Chlapček');
+data.kolekciaZena = data.products.filter(product => product.category === 'Žena');
+data.types = [];
+data.products.forEach(product => {
+    if (data.types.indexOf(product.type) === -1) {
+        data.types.push(product.type);
+    }
+});
 
-const helpers = {
-    ifEq: function (a, b, options) {
-        if (a == b) { return options.fn(this); }
-        return options.inverse(this);
-    },
-    ifGt: function (a, b, options) {
-        if (a > b) { return options.fn(this); }
-        return options.inverse(this);
-    },
-    ifLt: function (a, b, options) {
-        if (a < b) { return options.fn(this); }
-        return options.inverse(this);
-    },
-};
-
+// Pages
 const indexPage = fs.readFileSync('templates/template.handlebars', 'utf8');
 const productsPage = fs.readFileSync('templates/all-products.handlebars', 'utf8');
+const singleProductPage = fs.readFileSync('templates/single-product.handlebars','utf8');
+
+// Partials
 const productsPartial = fs.readFileSync('templates/partials/products.handlebars','utf8');
 const privacyPolicyModalPartial = fs.readFileSync('templates/partials/privacy-policy-modal.handlebars','utf8');
 const termsConditionsModalPartial = fs.readFileSync('templates/partials/terms-conditions-modal.handlebars','utf8');
@@ -57,3 +61,18 @@ const productsPageHtml = compiledProductsPage(data, {
 
 fs.writeFileSync('index.html', indexPageHtml);
 fs.writeFileSync('products.html', productsPageHtml);
+
+const compiledSingleProductPage = hb.compile(singleProductPage);
+data.products.map(product => {
+    const singleProductPage = compiledSingleProductPage(product, { 
+        helpers,
+        partials: { 
+            header,
+            privacyPolicyModalPartial, 
+            termsConditionsModalPartial,
+            measurementModalPartial,
+            footer
+        }
+    });
+    fs.writeFileSync(`products/${path.basename(product.slug)}`, singleProductPage);
+});

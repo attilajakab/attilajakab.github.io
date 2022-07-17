@@ -66,7 +66,7 @@ const unlink = promisify(fs.unlink);
             unlink(filepath);
         } catch (err) {
             console.error(`Failed converting image "${filepath}".`, err);
-            process.exit(1);
+            // process.exit(1);
         }
     }
 

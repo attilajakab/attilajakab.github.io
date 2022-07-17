@@ -168,15 +168,43 @@ nav a:not(:first-child):hover:after {
   cursor: pointer;
 }
 
-#img-preview {
-  -webkit-box-shadow: 0px 3px 25px 0px #000;; 
-  box-shadow: 0px 3px 25px 0px #000;;
-}
-
 .hamburger-menu {
   font-size: 30px;
   display: inline-block;
   text-align: right;
   margin-bottom: 9px;
   cursor: pointer;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 0.75rem 0rem;
+}
+
+.card-title a {
+  color: var(--bs-body-color);
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.card-price {
+  position: absolute;
+  top: -34px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 5px 15px;
+}
+
+.cbadge {
+  background-color: #e5919e;
+  color: #fff;
+  padding: 5px 11px;
+  border-radius: 6px;
 }

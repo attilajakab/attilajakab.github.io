@@ -17,6 +17,19 @@
     {{> header }}
 
     <main class="container-lg">
+      <!-- FILTERS -->
+      <div class="row mt-5">
+        <div class="col-md-6 offset-md-6">
+          <select id="type-filter" class="form-select" aria-label="Filter produktov podľa typu">
+            <option selected>Filtrovať podľa typu</option>
+            <option value="Všetky">Všetky</option> 
+            {{#each types}}
+              <option value="{{this}}">{{this}}</option> 
+            {{/each}}
+          </select>
+        </div>
+      </div>
+
       <!-- PRODUCTS -->
       <section id="products">
         <h2 class="mb-3 mt-5">
@@ -25,20 +38,17 @@
         </h2>
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
             {{#each kolekciaDcera}}
-                {{#ifEq category 'Dcéra'}}
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">{{title}}</h5>
-                            <p class="card-text">{{description}}</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>{{price}}</strong>
-                        </div>
-                        </div>
-                    </article>
-                {{/ifEq}}
+                <article class="col" data-type="{{type}}">
+                    <div class="card h-100">
+                    <img src="{{imgThumbPath}}" class="card-img-top rounded-0" alt="Čelenka {{title}}" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">{{price}}</div>
+                        <h5 class="card-title">
+                          <a href="{{slug}}">{{title}}</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
             {{/each}}
         </div>
 
@@ -48,20 +58,17 @@
         </h2>
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
             {{#each kolekciaMamaADcera}}
-                {{#ifEq category 'Mama&Dcéra'}}
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">{{title}}</h5>
-                            <p class="card-text">{{description}}</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>{{price}}</strong>
-                        </div>
-                        </div>
-                    </article>
-                {{/ifEq}}
+                <article class="col" data-type="{{type}}">
+                    <div class="card h-100">
+                    <img src="{{imgThumbPath}}" class="card-img-top rounded-0" alt="Čelenka {{title}}" loading="lazy">
+                    <div class="card-body position-relative">
+                        <div class="card-price">{{price}}</div>
+                        <h5 class="card-title">
+                          <a href="{{slug}}">{{title}}</a>
+                        </h5>
+                    </div>
+                    </div>
+                </article>
             {{/each}}
         </div>
 
@@ -71,20 +78,37 @@
         </h2>
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
             {{#each kolekciaChlapcek}}
-                {{#ifEq category 'Chlapček'}}
-                    <article class="col">
-                        <div class="card h-100">
-                        <img src="{{imgThumbPath}}" class="card-img-top cursor-pointer" alt="Čelenka {{title}}" loading="lazy" data-src-large="{{imgPath}}">
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">{{title}}</h5>
-                            <p class="card-text">{{description}}</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <strong>{{price}}</strong>
-                        </div>
-                        </div>
-                    </article>
-                {{/ifEq}}
+                <article class="col" data-type="{{type}}">
+                    <div class="card h-100">
+                      <img src="{{imgThumbPath}}" class="card-img-top rounded-0" alt="Čelenka {{title}}" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">{{price}}</div>
+                          <h5 class="card-title">
+                            <a href="{{slug}}">{{title}}</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
+            {{/each}}
+        </div>
+
+        <h2 class="mb-3 mt-5">
+            <small class="text-muted">kolekcia</small>
+            Žena
+        </h2>
+        <div class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-sm-3 g-md-4">
+            {{#each kolekciaZena}}
+                <article class="col" data-type="{{type}}">
+                    <div class="card h-100">
+                      <img src="{{imgThumbPath}}" class="card-img-top rounded-0" alt="Čelenka {{title}}" loading="lazy">
+                      <div class="card-body position-relative">
+                          <div class="card-price">{{price}}</div>
+                          <h5 class="card-title">
+                            <a href="{{slug}}">{{title}}</a>
+                          </h5>
+                      </div>
+                    </div>
+                </article>
             {{/each}}
         </div>
       </section>
@@ -148,14 +172,6 @@
         </form>
       </section>
 
-      <!-- IMG VIEW -->
-      <div id="img-preview-backdrop" style="display: none;">
-        <div class="img-preview-container position-relative">
-          <img id="img-preview" src="" style="max-width: 800px; width: 100%;"/>
-          <button id="img-preview-close-btn" type="button" class="btn-close" aria-label="Close"></button>
-        </div>
-      </div>
-
       <!-- MODALS -->
       {{> privacyPolicyModalPartial }}
       {{> termsConditionsModalPartial }}
@@ -165,7 +181,7 @@
     <!-- Footer -->
     {{> footer }}
 
-    <script type="text/javascript" src="./assets/js/common.js"></script>
+    <script type="text/javascript" src="/assets/js/common.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

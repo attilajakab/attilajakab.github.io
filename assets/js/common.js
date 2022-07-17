@@ -7,22 +7,6 @@ function recaptchaExpiredCallback() {
 }
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-    const imgs = document.querySelectorAll('.card-img-top');
-    const imgPreviewBackdrop = document.getElementById('img-preview-backdrop');
-    const imgPreview = document.getElementById('img-preview');
-
-    imgs.forEach(el => el.addEventListener('click', event => {
-      imgPreviewBackdrop.style.display = 'flex';
-      imgPreview.src = event.target.getAttribute('data-src-large');
-    }));
-
-    imgPreviewBackdrop.addEventListener('click', event => {
-      if (event.target.id === 'img-preview') {
-        return;
-      }
-      imgPreviewBackdrop.style.display = 'none';
-    });
-
     const hamburgerBtn = document.querySelector('.hamburger-menu');
 
     hamburgerBtn.addEventListener('click', event => {
@@ -72,6 +56,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
             alert('Niečo sa pokazilo, kontaktuje nás prosím na celenka.moda@gmail.com.');
         }).finally(() => {
             document.querySelector('form').reset();
+        });
+    }
+
+    const typeFilter = document.getElementById('type-filter');
+    
+    if (typeFilter) {
+        typeFilter.addEventListener('change', function (event) {
+            const selectedType = this.value;
+            
+
+            const products = document.querySelectorAll('article');
+
+            for (let i = 0; i < products.length; i++) {
+                products[i].style.display = 'block';
+
+                if (products[i].getAttribute('data-type') !== selectedType && selectedType !== 'Všetky') {
+                    products[i].style.display = 'none';
+                }
+            }
         });
     }
 });
