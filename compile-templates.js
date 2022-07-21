@@ -7,7 +7,8 @@ const helpers = require('./utils/helpers');
 // Prepare data
 const data = require('./data.json');
 data.products = data.products.map(product => {
-    product.slug = `./products/${helpers.toSlug(product.title)}.html`;
+    product.slug = `/products/${helpers.toSlug(product.title)}.html`;
+    product.priceWithoutSymbol = product.price.replace('€', '');
     return product;
 });
 data.kolekciaDcera = data.products.filter(product => product.category === 'Dcéra');
