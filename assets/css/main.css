@@ -1,4 +1,5 @@
 :root {
+    --black: #212529;
     --white: #fff;
     --sugar-milk: #FFF7F5;
     --berry-patch: #c26d92;
@@ -106,6 +107,12 @@ nav a:not(:first-child):hover:after {
     color: var(--white);
     background-color: var(--berry-patch);
     border-color: var(--berry-patch);
+}
+
+.btn-white {
+  color: var(--black);
+  background-color: var(--white);
+  border-color: var(--berry-patch);
 }
 
 /* Order form */

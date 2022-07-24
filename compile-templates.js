@@ -28,6 +28,7 @@ const productsPage = fs.readFileSync('templates/all-products.handlebars', 'utf8'
 const singleProductPage = fs.readFileSync('templates/single-product.handlebars','utf8');
 
 // Partials
+const orderForm = fs.readFileSync('templates/partials/order-form.handlebars','utf8');
 const productsPartial = fs.readFileSync('templates/partials/products.handlebars','utf8');
 const privacyPolicyModalPartial = fs.readFileSync('templates/partials/privacy-policy-modal.handlebars','utf8');
 const termsConditionsModalPartial = fs.readFileSync('templates/partials/terms-conditions-modal.handlebars','utf8');
@@ -40,6 +41,7 @@ const indexPageHtml = compiledIndexPage(data, {
     helpers,
     partials: { 
         header,
+        orderForm,
         productsPartial, 
         privacyPolicyModalPartial, 
         termsConditionsModalPartial,
@@ -53,6 +55,7 @@ const productsPageHtml = compiledProductsPage(data, {
     helpers,
     partials: { 
         header,
+        orderForm,
         privacyPolicyModalPartial, 
         termsConditionsModalPartial,
         measurementModalPartial,

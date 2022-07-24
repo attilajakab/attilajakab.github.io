@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "node compile-templates.js",
+    "compile": "node compile-templates.js && ./node_modules/minify/bin/minify.js assets/js/common.js > assets/js/common.min.js",
     "convert": "node convert.js"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "handlebars": "^4.7.7",
     "heic-convert": "^1.2.4",
+    "minify": "^9.1.0",
     "sharp": "^0.30.7"
   },
   "devDependencies": {

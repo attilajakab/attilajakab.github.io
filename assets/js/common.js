@@ -6,6 +6,21 @@ function recaptchaExpiredCallback() {
     document.querySelector('form').classList.add('captcha-disabled');
 }
 
+function initPacketa() {
+    const callback = (point) => {
+        const chosenPointParagraph = document.getElementById('chosen-point-paragraph');
+        const chosenPoint = document.getElementById('chosen-point');
+        chosenPoint.textContent = point.name;
+        chosenPointParagraph.classList.remove('d-none');
+    }
+
+    const options = {
+        language: 'sk'
+    };
+
+    Packeta.Widget.pick('0f142d20939829b0', callback, options)
+}
+
 document.addEventListener("DOMContentLoaded", function(event) { 
     const hamburgerBtn = document.querySelector('.hamburger-menu');
 
@@ -31,36 +46,44 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }, {});
     }
     
-    document.querySelector('form').onsubmit = function (e) {
-        e.preventDefault();
+    const orderForm = document.querySelector('form');
+    if (orderForm) {
+        orderForm.onsubmit = function (e) {
+            e.preventDefault();
 
-        if (document.querySelector('form').classList.contains('captcha-disabled')) {
-            return false;
-        }
-
-        const formData = getPlainObjectFromFormElement(e.target);
-
-        fetch('https://y04eh5uok0.execute-api.eu-central-1.amazonaws.com/production/order', {
-            method: 'POST',
-            body: JSON.stringify(formData),
-            headers: {
-                'Content-type': 'application/json; charset=UTF-8'
+            if (orderForm.classList.contains('captcha-disabled')) {
+                return false;
             }
-        }).then(response => {
-            if (response.status === 200) {
-                alert('Objednávka úspešne odoslaná!')
-            } else {
+
+            if (document.getElementById('chosen-point').textContent.length === 0) {
+                return false;
+            }
+
+            const formData = getPlainObjectFromFormElement(e.target);
+            formData['pickup-point'] = document.getElementById('chosen-point').textContent;
+
+            fetch('https://y04eh5uok0.execute-api.eu-central-1.amazonaws.com/production/order', {
+                method: 'POST',
+                body: JSON.stringify(formData),
+                headers: {
+                    'Content-type': 'application/json; charset=UTF-8'
+                }
+            }).then(response => {
+                if (response.status === 200) {
+                    alert('Objednávka úspešne odoslaná!')
+                } else {
+                    alert('Niečo sa pokazilo, kontaktuje nás prosím na celenka.moda@gmail.com.');
+                }
+            }).catch(() => {
                 alert('Niečo sa pokazilo, kontaktuje nás prosím na celenka.moda@gmail.com.');
-            }
-        }).catch(() => {
-            alert('Niečo sa pokazilo, kontaktuje nás prosím na celenka.moda@gmail.com.');
-        }).finally(() => {
-            document.querySelector('form').reset();
-        });
+            }).finally(() => {
+                document.querySelector('form').reset();
+                document.getElementById('chosen-point-paragraph').classList.add('d-none');
+            });
+        }
     }
 
     const typeFilter = document.getElementById('type-filter');
-    
     if (typeFilter) {
         typeFilter.addEventListener('change', function (event) {
             const selectedType = this.value;
