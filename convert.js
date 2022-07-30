@@ -13,15 +13,9 @@ const readdir = promisify(fs.readdir);
 const copyFile = promisify(fs.copyFile);
 const unlink = promisify(fs.unlink);
 
-//@TODO Once converted, delete HEIC file.
-//@TODO Copy none HEIC files (jpegs, pngs...).
-//@TODO Resize files.
 (async () => {
     let filenames;
-    const filenamesToResize = [
-        'C:\\Users\\atija\\OneDrive\\Desktop\\celenka\\assets\\products\\jpg\\IMG_0637.jpeg',
-        'C:\\Users\\atija\\OneDrive\\Desktop\\celenka\\assets\\products\\jpg\\IMG_0638.jpeg'
-    ];
+    const filenamesToResize = [];
 
     try {
         filenames = await readdir(HEIC_DIR_PATH);
@@ -66,7 +60,7 @@ const unlink = promisify(fs.unlink);
             unlink(filepath);
         } catch (err) {
             console.error(`Failed converting image "${filepath}".`, err);
-            // process.exit(1);
+            process.exit(1);
         }
     }
 
@@ -75,13 +69,21 @@ const unlink = promisify(fs.unlink);
     // **************
     for (const filenameToResize of filenamesToResize) {
         try {
+            let destination = '';
+            let resizedFilename = '';
+
             console.info(`Resizing image ${filenameToResize} to 800x800`);
             const buffer = await sharp(filenameToResize).resize(800, 800).toBuffer();
-            await sharp(buffer).toFile(filenameToResize);
+            resizedFilename = `${path.parse(filenameToResize).name}_800x800.jpeg`;
+            destination = path.resolve(JPEG_DIR_PATH, resizedFilename);
+            await sharp(buffer).toFile(destination);
 
             console.info(`Resizing image ${filenameToResize} to 300x300`);
-            const destination = path.resolve(THUMB_DIR_PATH, path.basename(filenameToResize));
-            await sharp(filenameToResize).resize(300, 300).toFile(destination);
+            resizedFilename = `${path.parse(filenameToResize).name}_300x300.jpeg`;
+            destination = path.resolve(THUMB_DIR_PATH, resizedFilename);
+            await sharp(filenameToResize).jpeg({ quality: 100, progressive: true }).resize(300, 300).toFile(destination);
+
+            unlink(filenameToResize);
         } catch (err) {
             console.error(`Failed resizing image "${filenameToResize}".`, err);
             process.exit(1);
