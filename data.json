@@ -56,7 +56,7 @@
             "description": "Čelenka s dvojitou mašličkou na gumku s bohatými vzormi kvetov. Zloženie: úplet: 95% bavlna,5% elastan. ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2253_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2253_800x800.jpeg.jpg",
+                "/assets/products/jpg/IMG_2253_800x800.jpeg.",
                 "/assets/products/jpg/IMG_0649.jpg"
                 
             ],
@@ -69,7 +69,7 @@
             "description": "Svetlo ružová čelenka s mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan. ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2319_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2319_800x800.jpg",
+                "/assets/products/jpg/IMG_2319_800x800.jpeg",
                 "/assets/products/jpg/IMG_0666.jpg",
                 "/assets/products/jpg/IMG_0963_Original.jpg"
             ],
@@ -82,8 +82,7 @@
             "description": "Jednovrstvový turban s mašličkou svetlo ružovej farby vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky. ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2440_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2440_800x800.jpeg.jpg",
-                "/assets/products/jpg/IMG_0671.jpg"
+                "/assets/products/jpg/IMG_2440_800x800.jpeg"
             ],
             "price": "€6.90",
             "category": "Dcéra"
@@ -94,7 +93,7 @@
             "description": "Jednovrstvový turban s mašličkou bielej farby vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky. ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2231_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2231_800x800.jpeg.jpg",
+                "/assets/products/jpg/IMG_2231_800x800.jpeg",
                 "/assets/products/jpg/IMG_0671.jpg"
             ],
             "price": "€6.90",
@@ -448,21 +447,19 @@
             "category": "Dcéra"
         },
         {
-            "title": "Korunka z úpletu",
+            "title": "Korunka z úpletu - dievčatko",
             "type": "Korunka - dievča",
             "description": "Korunka z úpletu pre dievčatko vhodná na teplejšie dni. Korunka Gréta - tmavobéžová farba, Korunka Emily - svetlobéžová farba, Korunka Alexandra - biela farba, Korunka Veronika - cyklaménová farba, Korunka Diana - svetloružová farba, Korunka Bianka - mango farba, Korunka Radoslava - fialová farba, Korunka Denisa - červená farba. Zloženie: úplet: 95% bavlna,5 % elastan. ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2480_300x300.jpeg",
             "imgPath": [
                 "/assets/products/jpg/IMG_2480_800x800.jpeg",
-                "/assets/products/jpg/IMG_1318.jpg",
                 "/assets/products/jpg/IMG_1993_800x800.jpeg"
             ],
             "price": "€4.90",
             "category": "Dcéra"
         },
-        
         {
-            "title": "Korunka z patentu",
+            "title": "Korunka z patentu - dievčatko",
             "type": "Korunka - dievča",
             "description": "Korunka z patentu pre dievčatko vhodná na chladnejšie dni. Korunka Kristína - béžová farba, Korunka Ema - púdrovo ružová farba, Korunka Daniela - fialová farba, Korunka Marína - cyklaménová farba, Korunka Sofia - ružová farba. Zloženie: patent: 97% bavlna,3 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2298_300x300.jpeg",
@@ -476,7 +473,7 @@
             "category": "Dcéra"
         },
         {
-            "title": "Jednovrstvová čiapka z rebrovaného úpletu",
+            "title": "Jednovrstvová čiapka z rebrovaného úpletu - dievčatko",
             "type": "Čiapka - dievča",
             "description": "Jednovrstvová čiapka z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2328_300x300.jpeg",
@@ -492,7 +489,7 @@
             "category": "Dcéra"
         },
         {
-            "title": "Jednovrstvová čiapka s uškami z rebrovaného úpletu",
+            "title": "Jednovrstvová čiapka s uškami z rebrovaného úpletu - dievčatko",
             "type": "Čiapka - dievča",
             "description": "Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2443_300x300.jpeg",
@@ -505,7 +502,7 @@
             "category": "Dcéra"
         },
         {
-            "title": "Dvojvrstvová čiapka z rebrovaného úpletu",
+            "title": "Dvojvrstvová čiapka z rebrovaného úpletu - dievčatko",
             "type": "Čiapka - dievča",
             "description": "Dvojvrstvovová čiapka z rebrovaného úpletu vhodná na chladnejšie dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2505_300x300.jpeg",
@@ -518,7 +515,7 @@
             "category": "Dcéra"
         },
         {
-            "title": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu",
+            "title": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu - dievčatko ",
             "type": "Čiapka - dievča",
             "description": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu vhodná na chladnejšie dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2506_300x300.jpeg",
@@ -732,7 +729,7 @@
             "category": "Mama&Dcéra"
         },
         {
-            "title": "Korunka z úpletu",
+            "title": "Korunka z úpletu - chlapček",
             "type": "Korunka - chlapec",
             "description": "Korunka z úpletu pre chlapčeka vhodná na teplejšie dni. Korunka Gregor - tmavobéžová farba, Korunka Emil - svetlobéžová farba, Korunka Adam - baby blue farba, Korunka Damián - baby blue tmavá farba, Korunka Radoslav - fialová farba, Korunka Michal - mätová farba, Korunka Benjamín - karamelová farba, Korunka Karol - tmavotyrkysová farba, Korunka Viktor - tmavozelená farba, Korunka Viliam - parížsko modrá farba. Zloženie: úplet: 95% bavlna,5 % elastan.",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2272_300x300.jpeg",
@@ -745,7 +742,7 @@
             "category": "Chlapček"
         },
         {
-            "title": "Korunka z patentu",
+            "title": "Korunka z patentu - chlapček",
             "type": "Korunka - chlapec",
             "description": "Korunka z patentu pre chlapčeka vhodná do chladnejšieho počasia. Korunka Kristián - béžová farba, Korunka Roman - karamelová farba, Korunka Daniel - fialová farba, Korunka Viliam - parížska modrá farba,  Korunka Jakub - mätová farba. Zloženie: patent: 97% bavlna,3% elastan.",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2318_300x300.jpeg",
@@ -758,7 +755,7 @@
             "category": "Chlapček"
         },
         {
-            "title": "Jednovrstová čiapka z rebrovaného úpletu",
+            "title": "Jednovrstová čiapka z rebrovaného úpletu - chlapček",
             "type": "Čiapka - chlapec",
             "description": "Jednovrstvová čiapka z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2305_300x300.jpeg",
@@ -770,7 +767,7 @@
             "category": "Chlapček"
         },
         {
-            "title": "Jednovrstová čiapka s uškami z rebrovaného úpletu",
+            "title": "Jednovrstová čiapka s uškami z rebrovaného úpletu - chlapček",
             "type": "Čiapka - chlapec",
             "description": "Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2288_300x300.jpeg",
@@ -782,7 +779,7 @@
             "category": "Chlapček"
         },
         {
-            "title": "Dvojvrstvová čiapka z rebrovaného úpletu",
+            "title": "Dvojvrstvová čiapka z rebrovaného úpletu - chlapček",
             "type": "Čiapka - chlapec",
             "description": "Dvojvrstvová čiapka z rebrovaného úpletu vhodná na chladnejšie dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2505_300x300.jpeg",
@@ -794,7 +791,7 @@
             "category": "Chlapček"
         },
         {
-            "title": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu",
+            "title": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu - chlapček",
             "type": "Čiapka - chlapec",
             "description": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu vhodná na chladnejšie dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2506_300x300.jpeg",
@@ -1799,7 +1796,8 @@
             "description": "Jednovrstvový turban s mašlou z príjemného úpletu. Turban je možné nosiť s mašličkou alebo bez mašličky. Turban s mašľou Svetlana - biela farba, Turban s mašľou Natália - béžová farba, Turban s mašľou Nela - ružová farba, Turban s mašľou Timea - karamelová farba. Zloženie: úplet: 95% bavlna,5% elastan",
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2449_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2449_800x800.jpeg"
+                "/assets/products/jpg/IMG_2449_800x800.jpeg",
+                "/assets/products/jpg/IMG_2626_800x800.jpeg"
             ],
             "price": "€6.90",
             "category": "Dcéra"
