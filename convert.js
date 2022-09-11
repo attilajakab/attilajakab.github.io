@@ -73,7 +73,7 @@ const unlink = promisify(fs.unlink);
             let resizedFilename = '';
 
             console.info(`Resizing image ${filenameToResize} to 800x800`);
-            const buffer = await sharp(filenameToResize).resize(800, 800).toBuffer();
+            const buffer = await sharp(filenameToResize).flatten({ background: '#ffffff' }).jpeg({ quality: 100, progressive: true }).resize(800, 800).toBuffer();
             resizedFilename = `${path.parse(filenameToResize).name}_800x800.jpeg`;
             destination = path.resolve(JPEG_DIR_PATH, resizedFilename);
             await sharp(buffer).toFile(destination);
@@ -81,7 +81,7 @@ const unlink = promisify(fs.unlink);
             console.info(`Resizing image ${filenameToResize} to 300x300`);
             resizedFilename = `${path.parse(filenameToResize).name}_300x300.jpeg`;
             destination = path.resolve(THUMB_DIR_PATH, resizedFilename);
-            await sharp(filenameToResize).jpeg({ quality: 100, progressive: true }).resize(300, 300).toFile(destination);
+            await sharp(filenameToResize).flatten({ background: '#ffffff' }).jpeg({ quality: 100, progressive: true }).resize(300, 300).toFile(destination);
 
             unlink(filenameToResize);
         } catch (err) {

@@ -4,9 +4,9 @@
             "title": "Čelenka s dvojitou mašľou Lea",
             "type": "Čelenka - dievča",
             "description": "Čelenka s dvojitou mašličkou na gumku so vzormi poľných kvetov. Zloženie: úplet: 95% bavlna,5% elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2034_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2234_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2034_800x800.jpeg",
+                "/assets/products/jpg/IMG_2234_800x800.jpeg",
                 "/assets/products/jpg/IMG_0693.jpg"
             ],
             "price": "€5.90",
@@ -16,9 +16,9 @@
             "title": "Turban Lea",
             "type": "Turban",
             "description": "Jednovrstvový turban s mašličkou so vzormi poľných kvetov vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2017_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2236_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2017_800x800.jpeg",
+                "/assets/products/jpg/IMG_2236_800x800.jpeg",
                 "/assets/products/jpg/IMG_0675.jpg",
                 "/assets/products/jpg/IMG_0821_Original.jpg"
             ],
@@ -29,9 +29,9 @@
             "title": "Čelenka s dvojitou mašľou Beáta ",
             "type": "Čelenka - dievča",
             "description": "Čelenka s dvojitou mašličkou na gumku staroružovej farby so slovenskými vzormi. Zloženie: teplákovina: 95% bavlna,5% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1900_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2303_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1900_800x800.jpeg",
+                "/assets/products/jpg/IMG_2303_800x800.jpeg",
                 "/assets/products/jpg/IMG_0645.jpg",
                 "/assets/products/jpg/IMG_0982_Original.jpg"
             ],
@@ -42,9 +42,9 @@
             "title": "Čelenka s mašľou Adriána",
             "type": "Čelenka - dievča",
             "description": "Čelenka s mašličkou na gumku so vzormi slovenskej modrotlače. Zloženie: teplákovina: 95% bavlna,5% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2018_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2331_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2018_800x800.jpeg",
+                "/assets/products/jpg/IMG_2331_800x800.jpeg",
                 "/assets/products/jpg/IMG_0637.jpeg"
             ],
             "price": "€5.90",
@@ -54,9 +54,9 @@
             "title": "Čelenka s dvojitou mašľou Sára",
             "type": "Čelenka - dievča",
             "description": "Čelenka s dvojitou mašličkou na gumku s bohatými vzormi kvetov. Zloženie: úplet: 95% bavlna,5% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1909_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2253_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1909_800x800.jpeg.jpg",
+                "/assets/products/jpg/IMG_2253_800x800.jpeg.jpg",
                 "/assets/products/jpg/IMG_0649.jpg"
                 
             ],
@@ -67,9 +67,9 @@
             "title": "Čelenka s mašľou Diana",
             "type": "Čelenka - dievča",
             "description": "Svetlo ružová čelenka s mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1917_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2319_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1917_800x800.jpg",
+                "/assets/products/jpg/IMG_2319_800x800.jpg",
                 "/assets/products/jpg/IMG_0666.jpg",
                 "/assets/products/jpg/IMG_0963_Original.jpg"
             ],
@@ -77,12 +77,24 @@
             "category": "Dcéra"
         },
         {
+            "title": "Turban Diana",
+            "type": "Turban",
+            "description": "Jednovrstvový turban s mašličkou svetlo ružovej farby vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky. ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2440_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2440_800x800.jpeg.jpg",
+                "/assets/products/jpg/IMG_0671.jpg"
+            ],
+            "price": "€6.90",
+            "category": "Dcéra"
+        },
+        {
             "title": "Turban Alexandra",
             "type": "Turban",
             "description": "Jednovrstvový turban s mašličkou bielej farby vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2025_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2231_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2025_800x800.jpeg.jpg",
+                "/assets/products/jpg/IMG_2231_800x800.jpeg.jpg",
                 "/assets/products/jpg/IMG_0671.jpg"
             ],
             "price": "€6.90",
@@ -92,9 +104,9 @@
             "title": "Čelenka s mašľou Alexandra",
             "type": "Čelenka - dievča",
             "description": "Biela čelenka s mašličkou na gumku. Zloženie: úplet: 95% bavlna,5% elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2026_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2243_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2026_800x800.jpeg",
+                "/assets/products/jpg/IMG_2243_800x800.jpeg",
                 "/assets/products/jpg/IMG_0970.jpg",
                 "/assets/products/jpg/IMG_0962_Original.jpg"
             ],
@@ -105,9 +117,9 @@
             "title": "Čelenka s mašľou Viktória ",
             "type": "Čelenka - dievča",
             "description": "Čelenka s mašličkou na gumku so vzormi exotických kvetov. Zloženie: úplet: 95% bavlna,5% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1911_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2290_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1911_800x800.jpeg",
+                "/assets/products/jpg/IMG_2290_800x800.jpeg",
                 "/assets/products/jpg/IMG_0667.jpg",
                 "/assets/products/jpg/IMG_0962_Original.jpg"
             ],
@@ -118,9 +130,9 @@
             "title": "Turban Viktória ",
             "type": "Turban",
             "description": "Jednovrstvový turban s mašličkou so vzormi exotických kvetov vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1953_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2256_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1953_800x800.jpeg",
+                "/assets/products/jpg/IMG_2256_800x800.jpeg",
                 "/assets/products/jpg/IMG_0677.jpg",
                 "/assets/products/jpg/IMG_0964_Original.jpg"
             ],
@@ -131,9 +143,9 @@
             "title": "Čelenka s mašľou Hana",
             "type": "Čelenka - dievča",
             "description": "Čelenka s mašličkou na gumku s bodkami a srdiečkami. Zloženie: teplákovina: 95% bavlna,5% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1914_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2364_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1914_800x800.jpeg",
+                "/assets/products/jpg/IMG_2364_800x800.jpeg",
                 "/assets/products/jpg/IMG_0657.jpg"
             ],
             "price": "€5.90",
@@ -143,9 +155,9 @@
             "title": "Čelenka s dvojitou mašľou Martina ",
             "type": "Čelenka - dievča",
             "description": "Čelenka s dvojitou mašličkou na gumku s pestrofarebnými trojuholníkmi. Zloženie: úplet: 96% bavlna,4% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1906_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2301_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1906_800x800.jpeg",
+                "/assets/products/jpg/IMG_2301_800x800.jpeg",
                 "/assets/products/jpg/IMG_0641.jpg",
                 "/assets/products/jpg/IMG_0788_Original.jpg"
             ],
@@ -156,9 +168,9 @@
             "title": "Čelenka s dvojitou mašľou Eliška ",
             "type": "Čelenka - dievča",
             "description": "Čelenka s dvojitou mašličkou na gumku s milými detskými vzormi ružovej farby. Zloženie: úplet: 96% bavlna,4% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1910_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2327_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1910_800x800.jpeg",
+                "/assets/products/jpg/IMG_2327_800x800.jpeg",
                 "/assets/products/jpg/IMG_0646.jpg",
                 "/assets/products/jpg/IMG_0757.jpg"
             ],
@@ -169,9 +181,9 @@
             "title": "Čelenka s mašľou Martuška",
             "type": "Čelenka - dievča",
             "description": "Čelenka s mašličkou na gumku s farebnými vzormi. Zloženie: úplet: 95% bavlna,5% elastan ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1912_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2252_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1912_800x800.jpeg",
+                "/assets/products/jpg/IMG_2252_800x800.jpeg",
                 "/assets/products/jpg/IMG_0661.jpg"
             ],
             "price": "€5.90",
@@ -181,9 +193,9 @@
             "title": "Turban Adela",
             "type": "Turban",
             "description": "Jednovrstvový turban s letnými vzormi vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2016_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2433_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2016_800x800.jpeg",
+                "/assets/products/jpg/IMG_2433_800x800.jpeg",
                 "/assets/products/jpg/IMG_0676.jpg",
                 "/assets/products/jpg/IMG_0964_Original.jpg",
                 "/assets/products/jpg/IMG_0963_Original.jpg"
@@ -195,9 +207,9 @@
             "title": "Čelenka s mašľou Nina",
             "type": "Čelenka - dievča",
             "description": "Čelenka s mašličkou na gumku zelenej farby. Zloženie: patent: 97% bavlna,3% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1902_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2287_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1902_800x800.jpeg",
+                "/assets/products/jpg/IMG_2287_800x800.jpeg",
                 "/assets/products/jpg/IMG_0651.jpg",
                 "/assets/products/jpg/IMG_0726.jpg"
             ],
@@ -208,9 +220,9 @@
             "title": "Turban Nina ",
             "type": "Turban",
             "description": "Zelený jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1901_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2479_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1901_800x800.jpeg",
+                "/assets/products/jpg/IMG_2479_800x800.jpeg",
                 "/assets/products/jpg/IMG_0695.jpg",
                 "/assets/products/jpg/IMG_0856_Original.jpg"
             ],
@@ -221,9 +233,9 @@
             "title": "Čelenka s mašľou Kristína ",
             "type": "Čelenka - dievča",
             "description": "Čelenka s mašličkou na gumku béžovej farby. Zloženie: patent: 97% bavlna,3% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1896_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2249_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1896_800x800.jpeg",
+                "/assets/products/jpg/IMG_2249_800x800.jpeg",
                 "/assets/products/jpg/IMG_0653.jpg",
                 "/assets/products/jpg/IMG_0726.jpg"
             ],
@@ -234,9 +246,9 @@
             "title": "Turban Kristína",
             "type": "Turban",
             "description": "Béžový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1895_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2254_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1895_800x800.jpeg",
+                "/assets/products/jpg/IMG_2254_800x800.jpeg",
                 "/assets/products/jpg/IMG_0673.jpg"
             ],
             "price": "€6.90",
@@ -246,9 +258,9 @@
             "title": "Čelenka s mašľou Sofia",
             "type": "Čelenka - dievča",
             "description": "Čelenka s mašličkou na gumku ružovej farby. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1897_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2239_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1897_800x800.jpeg",
+                "/assets/products/jpg/IMG_2239_800x800.jpeg",
                 "/assets/products/jpg/IMG_0709.jpg",
                 "/assets/products/jpg/IMG_0726.jpg",
                 "/assets/products/jpg/IMG_1590.jpg"
@@ -260,9 +272,9 @@
             "title": "Turban Sofia",
             "type": "Turban",
             "description": "Ružový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1951_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2432_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1951_800x800.jpeg",
+                "/assets/products/jpg/IMG_2432_800x800.jpeg",
                 "/assets/products/jpg/IMG_0674.jpg"
             ],
             "price": "€6.90",
@@ -272,9 +284,9 @@
             "title": "Čelenka s mašľou Ema",
             "type": "Čelenka - dievča",
             "description": "Čelenka s mašličkou na gumku púdrovo ružovej farby. Zloženie: patent: 97% bavlna,3% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1954_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2281_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1954_800x800.jpeg",
+                "/assets/products/jpg/IMG_2281_800x800.jpeg",
                 "/assets/products/jpg/IMG_0672.jpg",
                 "/assets/products/jpg/IMG_0726.jpg"
             ],
@@ -285,9 +297,9 @@
             "title": "Turban Ema",
             "type": "Turban",
             "description": "Púdrovo ružový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1916_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2325_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1916_800x800.jpeg",
+                "/assets/products/jpg/IMG_2325_800x800.jpeg",
                 "/assets/products/jpg/IMG_0669.jpg"
             ],
             "price": "€6.90",
@@ -297,9 +309,9 @@
             "title": "Klobúk Olívia",
             "type": "Klobúk - dievča",
             "description": "Ľahký letný rastúci klobúčik na gumku horčicovej farby zo 100% bavlny. Klobúk Paulína - béžová farba, Klobúk Olívia - horčicová farba, Klobúk Júlia - cyklaménová farba, Klobúk Marianna - svetloružová farba, Klobúk Petra - zelená farba, Klobúk Teodora - modrá farba. Zloženie: bavlna: 100%.   ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1958_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2304_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1958_800x800.jpeg",
+                "/assets/products/jpg/IMG_2304_800x800.jpeg",
                 "/assets/products/jpg/IMG_1119.jpg",
                 "/assets/products/jpg/IMG_1075.jpg",
                 "/assets/products/jpg/IMG_1079.jpg",
@@ -316,9 +328,9 @@
             "title": "Prekrížená čelenka Dominika",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka staroružovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1939_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2286_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1939_800x800.jpeg",
+                "/assets/products/jpg/IMG_2286_800x800.jpeg",
                 "/assets/products/jpg/IMG_0718.jpg",
                 "/assets/products/jpg/IMG_0745.jpg"
             ],
@@ -329,9 +341,9 @@
             "title": "Prekrížená čelenka Gréta",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka béžovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1931_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2314_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1931_800x800.jpeg",
+                "/assets/products/jpg/IMG_2314_800x800.jpeg",
                 "/assets/products/jpg/IMG_0716.jpg",
                 "/assets/products/jpg/IMG_0745.jpg"
             ],
@@ -342,9 +354,9 @@
             "title": "Prekrížená čelenka Veronika",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka cyklaménovej farby. Zloženie: úplet: 93% bavlna,7 % elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1919_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2280_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1919_800x800.jpeg",
+                "/assets/products/jpg/IMG_2280_800x800.jpeg",
                 "/assets/products/jpg/IMG_0719.jpg"
             ],
             "price": "€4.90",
@@ -354,9 +366,9 @@
             "title": "Prekrížená čelenka Simona",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka tmavozelenej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1936_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2246_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1936_800x800.jpeg",
+                "/assets/products/jpg/IMG_2246_800x800.jpeg",
                 "/assets/products/jpg/IMG_0712.jpg"
             ],
             "price": "€4.90",
@@ -366,9 +378,9 @@
             "title": "Prekrížená čelenka Nikola",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka parížskej modrej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1945_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2283_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1945_800x800.jpeg",
+                "/assets/products/jpg/IMG_2283_800x800.jpeg",
                 "/assets/products/jpg/IMG_0711.jpg"
             ],
             "price": "€4.90",
@@ -378,9 +390,9 @@
             "title": "Prekrížená čelenka Katarína",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka tmavo tyrkysovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1948_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2282_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1948_800x800.jpeg",
+                "/assets/products/jpg/IMG_2282_800x800.jpeg",
                 "/assets/products/jpg/IMG_0721.jpg"
             ],
             "price": "€4.90",
@@ -390,9 +402,9 @@
             "title": "Prekrížená čelenka Lenka",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka mätovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1922_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2250_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1922_800x800.jpeg",
+                "/assets/products/jpg/IMG_2250_800x800.jpeg",
                 "/assets/products/jpg/IMG_0717.jpg",
                 "/assets/products/jpg/IMG_0745.jpg"
             ],
@@ -403,9 +415,9 @@
             "title": "Prekrížená čelenka Barbara",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka karamelovej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1942_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2322_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1942_800x800.jpeg",
+                "/assets/products/jpg/IMG_2322_800x800.jpeg",
                 "/assets/products/jpg/IMG_0714.jpg"
             ],
             "price": "€4.90",
@@ -415,9 +427,9 @@
             "title": "Prekrížená čelenka Denisa",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka červenej farby. Zloženie: úplet: 95% bavlna,5 % elastan ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1928_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2276_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1928_800x800.jpeg",
+                "/assets/products/jpg/IMG_2276_800x800.jpeg",
                 "/assets/products/jpg/IMG_0713.jpg"
             ],
             "price": "€4.90",
@@ -427,21 +439,21 @@
             "title": "Prekrížená čelenka Bianka",
             "type": "Čelenka - dievča",
             "description": "Prekrížená čelenka mango farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1925_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2263_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1925_800x800.jpeg",
+                "/assets/products/jpg/IMG_2263_800x800.jpeg",
                 "/assets/products/jpg/IMG_0715.jpg"
             ],
             "price": "€4.90",
             "category": "Dcéra"
         },
         {
-            "title": "Korunka z úpletu Emily",
+            "title": "Korunka z úpletu",
             "type": "Korunka - dievča",
-            "description": "Korunka z úpletu pre dievčatko svetlobéžovej farby vhodná na teplejšie dni. Korunka Gréta - tmavobéžová farba, Korunka Emily - svetlobéžová farba, Korunka Alexandra - biela farba, Korunka Veronika - cyklaménová farba, Korunka Diana - svetloružová farba, Korunka Bianka - mango farba, Korunka Radoslava - fialová farba, Korunka Denisa - červená farba. Zloženie: úplet: 95% bavlna,5 % elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1889_300x300.jpeg",
+            "description": "Korunka z úpletu pre dievčatko vhodná na teplejšie dni. Korunka Gréta - tmavobéžová farba, Korunka Emily - svetlobéžová farba, Korunka Alexandra - biela farba, Korunka Veronika - cyklaménová farba, Korunka Diana - svetloružová farba, Korunka Bianka - mango farba, Korunka Radoslava - fialová farba, Korunka Denisa - červená farba. Zloženie: úplet: 95% bavlna,5 % elastan. ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2480_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1889_800x800.jpeg",
+                "/assets/products/jpg/IMG_2480_800x800.jpeg",
                 "/assets/products/jpg/IMG_1318.jpg",
                 "/assets/products/jpg/IMG_1993_800x800.jpeg"
             ],
@@ -450,12 +462,12 @@
         },
         
         {
-            "title": "Korunka z patentu Ema",
+            "title": "Korunka z patentu",
             "type": "Korunka - dievča",
-            "description": "Korunka z patentu pre dievčatko púdrovo ružovej farby vhodná na chladnejšie dni. Korunka Kristína - béžová farba, Korunka Ema - púdrovo ružová farba, Korunka Daniela - fialová farba, Korunka Marína - cyklaménová farba, Korunka Sofia - ružová farba. Zloženie: patent: 97% bavlna,3 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1894_300x300.jpeg",
+            "description": "Korunka z patentu pre dievčatko vhodná na chladnejšie dni. Korunka Kristína - béžová farba, Korunka Ema - púdrovo ružová farba, Korunka Daniela - fialová farba, Korunka Marína - cyklaménová farba, Korunka Sofia - ružová farba. Zloženie: patent: 97% bavlna,3 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2298_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1894_800x800.jpeg",
+                "/assets/products/jpg/IMG_2298_800x800.jpeg",
                 "/assets/products/jpg/IMG_1311.jpg",
                 "/assets/products/jpg/IMG_1336_Original.jpg",
                 "/assets/products/jpg/IMG_1992_800x800.jpeg"
@@ -464,19 +476,58 @@
             "category": "Dcéra"
         },
         {
-            "title": "Čiapka z rebrovaného úpletu Zoja",
+            "title": "Jednovrstvová čiapka z rebrovaného úpletu",
             "type": "Čiapka - dievča",
-            "description": "Jednovrstvová čiapka z rebrovaného úpletu ružovej farby vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1884_300x300.jpeg",
+            "description": "Jednovrstvová čiapka z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2328_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1884_800x800.jpeg",
+                "/assets/products/jpg/IMG_2328_800x800.jpeg",
                 "/assets/products/jpg/IMG_1320.jpg",
                 "/assets/products/jpg/IMG_1886_800x800.jpeg",
                 "/assets/products/jpg/IMG_1888_800x800.jpeg",
-                "/assets/products/jpg/IMG_1989_800x800.jpeg"
+                "/assets/products/jpg/IMG_2625_800x800.jpeg"
 
             ],
-            "price": "€5.90",
+            "price": "€6.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Jednovrstvová čiapka s uškami z rebrovaného úpletu",
+            "type": "Čiapka - dievča",
+            "description": "Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2443_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2443_800x800.jpeg",
+                "/assets/products/jpg/IMG_2625_800x800.jpeg"
+
+            ],
+            "price": "€6.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Dvojvrstvová čiapka z rebrovaného úpletu",
+            "type": "Čiapka - dievča",
+            "description": "Dvojvrstvovová čiapka z rebrovaného úpletu vhodná na chladnejšie dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2505_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2505_800x800.jpeg",
+                "/assets/products/jpg/IMG_2625_800x800.jpeg"
+
+            ],
+            "price": "€7.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu",
+            "type": "Čiapka - dievča",
+            "description": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu vhodná na chladnejšie dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2506_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2506_800x800.jpeg",
+                "/assets/products/jpg/IMG_2625_800x800.jpeg"
+
+            ],
+            "price": "€7.90",
             "category": "Dcéra"
         },
         
@@ -484,9 +535,9 @@
             "title": "Čelenky Sára",
             "type": "Set",
             "description": "Čelenky pre mamku a dcérku s bohatými vzormi kvetov. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1907_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2251_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1907_800x800.jpeg",
+                "/assets/products/jpg/IMG_2251_800x800.jpeg",
                 "/assets/products/jpg/IMG_0710.jpg",
                 "/assets/products/jpg/IMG_0738.jpg"
             ],
@@ -497,9 +548,9 @@
             "title": "Čelenky Hana",
             "type": "Set",
             "description": "Čelenky pre mamku a dcérku s bodkami a srdiečkami. Zloženie: teplákovina: 95% bavlna,5% elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1913_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2258_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1913_800x800.jpeg",
+                "/assets/products/jpg/IMG_2258_800x800.jpeg",
                 "/assets/products/jpg/IMG_0656.jpg"
             ],
             "price": "€11.90",
@@ -509,9 +560,9 @@
             "title": "Čelenky Beáta",
             "type": "Set",
             "description": "Čelenky pre mamku a dcérku staroružovej farby so slovenskými vzormi. Zloženie: teplákovina: 95% bavlna,5% elastan.   ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1898_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2313_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1898_800x800.jpeg",
+                "/assets/products/jpg/IMG_2313_800x800.jpeg",
                 "/assets/products/jpg/IMG_0642.jpg",
                 "/assets/products/jpg/IMG_0895.jpg",
                 "/assets/products/jpg/IMG_0729.jpg"
@@ -524,9 +575,9 @@
             "title": "Čelenky Martina",
             "type": "Set",
             "description": "Čelenky pre mamku a dcérku s pestrofarebnými trojuholníkmi. Zloženie: úplet: 96% bavlna,4 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1903_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2297_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1903_800x800.jpeg",
+                "/assets/products/jpg/IMG_2297_800x800.jpeg",
                 "/assets/products/jpg/IMG_0639.jpg",
                 "/assets/products/jpg/IMG_0730.jpg"
             ],
@@ -537,21 +588,32 @@
             "title": "Čelenky Adriána",
             "type": "Set",
             "description": "Čelenky pre mamku a dcérku so vzormi slovenskej modrotlače. Zloženie: teplákovina: 95% bavlna,5% elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2020_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2299_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2020_800x800.jpeg",
+                "/assets/products/jpg/IMG_2299_800x800.jpeg",
                 "/assets/products/jpg/IMG_0638.jpeg"
             ],
             "price": "€11.90",
             "category": "Mama&Dcéra"
         },
         {
+            "title": "Čelenky Adela",
+            "type": "Set",
+            "description": "Čelenka a turban pre mamku a dcérku s letnými vzormi vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2434_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2434_800x800.jpeg"
+            ],
+            "price": "€12.90",
+            "category": "Mama&Dcéra"
+        },
+        {
             "title": "Čelenky Dominika",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku staroružovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1940_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2241_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1940_800x800.jpeg",
+                "/assets/products/jpg/IMG_2241_800x800.jpeg",
                 "/assets/products/jpg/IMG_0681.jpg",
                 "/assets/products/jpg/IMG_0745.jpg"
             ],
@@ -562,9 +624,9 @@
             "title": "Čelenky Gréta",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku béžovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1934_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2302_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1934_800x800.jpeg",
+                "/assets/products/jpg/IMG_2302_800x800.jpeg",
                 "/assets/products/jpg/IMG_0687.jpg",
                 "/assets/products/jpg/IMG_0745.jpg"
             ],
@@ -575,9 +637,9 @@
             "title": "Čelenky Veronika",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku cyklaménovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1920_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2235_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1920_800x800.jpeg",
+                "/assets/products/jpg/IMG_2235_800x800.jpeg",
                 "/assets/products/jpg/IMG_0692.jpg"
             ],
             "price": "€9.90",
@@ -587,9 +649,9 @@
             "title": "Čelenky Simona",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku tmavozelenej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1937_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2255_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1937_800x800.jpeg",
+                "/assets/products/jpg/IMG_2255_800x800.jpeg",
                 "/assets/products/jpg/IMG_0689.jpg"
             ],
             "price": "€9.90",
@@ -599,9 +661,9 @@
             "title": "Čelenky Nikola",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku parížsko modrej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1946_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2279_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1946_800x800.jpeg",
+                "/assets/products/jpg/IMG_2279_800x800.jpeg",
                 "/assets/products/jpg/IMG_0686.jpg"
             ],
             "price": "€9.90",
@@ -611,9 +673,9 @@
             "title": "Čelenky Katarína",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku tyrkysovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1949_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2271_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1949_800x800.jpeg",
+                "/assets/products/jpg/IMG_2271_800x800.jpeg",
                 "/assets/products/jpg/IMG_0694.jpg"
             ],
             "price": "€9.90",
@@ -623,9 +685,9 @@
             "title": "Čelenky Lenka",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku mätovej farby. Zloženie: úplet: 93% bavlna,7 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1923_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2320_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1923_800x800.jpeg",
+                "/assets/products/jpg/IMG_2320_800x800.jpeg",
                 "/assets/products/jpg/IMG_0683.jpg",
                 "/assets/products/jpg/IMG_0745.jpg"
             ],
@@ -636,9 +698,9 @@
             "title": "Čelenky Barbara",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku karamelovej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1943_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2311_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1943_800x800.jpeg",
+                "/assets/products/jpg/IMG_2311_800x800.jpeg",
                 "/assets/products/jpg/IMG_0688.jpg"
             ],
             "price": "€9.90",
@@ -648,9 +710,9 @@
             "title": "Čelenky Denisa",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku červenej farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1929_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2315_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1929_800x800.jpeg",
+                "/assets/products/jpg/IMG_2315_800x800.jpeg",
                 "/assets/products/jpg/IMG_0682.jpg"
             ],
             "price": "€9.90",
@@ -660,9 +722,9 @@
             "title": "Čelenky Bianka",
             "type": "Set",
             "description": "Prekrížené čelenky pre mamku a dcérku mango farby. Zloženie: úplet: 95% bavlna,5 % elastan.  ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1926_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2242_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1926_800x800.jpeg",
+                "/assets/products/jpg/IMG_2242_800x800.jpeg",
                 "/assets/products/jpg/IMG_0684.jpg",
                 "/assets/products/jpg/IMG_0909.jpg"
             ],
@@ -670,12 +732,12 @@
             "category": "Mama&Dcéra"
         },
         {
-            "title": "Korunka z úpletu Benjamín",
+            "title": "Korunka z úpletu",
             "type": "Korunka - chlapec",
-            "description": "Korunka z úpletu pre chlapčeka tmavozelenej farby vhodná na teplejšie dni. Korunka Gregor - tmavobéžová farba, Korunka Emil - svetlobéžová farba, Korunka Adam - baby blue farba, Korunka Damián - baby blue tmavá farba, Korunka Radoslav - fialová farba, Korunka Michal - mätová farba, Korunka Benjamín - karamelová farba, Korunka Karol - tmavotyrkysová farba, Korunka Viktor - tmavozelená farba, Korunka Viliam - parížsko modrá farba. Zloženie: úplet: 95% bavlna,5 % elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1890_300x300.jpeg",
+            "description": "Korunka z úpletu pre chlapčeka vhodná na teplejšie dni. Korunka Gregor - tmavobéžová farba, Korunka Emil - svetlobéžová farba, Korunka Adam - baby blue farba, Korunka Damián - baby blue tmavá farba, Korunka Radoslav - fialová farba, Korunka Michal - mätová farba, Korunka Benjamín - karamelová farba, Korunka Karol - tmavotyrkysová farba, Korunka Viktor - tmavozelená farba, Korunka Viliam - parížsko modrá farba. Zloženie: úplet: 95% bavlna,5 % elastan.",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2272_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1890_800x800.jpeg",
+                "/assets/products/jpg/IMG_2272_800x800.jpeg",
                 "/assets/products/jpg/IMG_1323.jpg",
                 "/assets/products/jpg/IMG_1998_800x800.jpeg"
             ],
@@ -683,12 +745,12 @@
             "category": "Chlapček"
         },
         {
-            "title": "Korunka z patentu Viliam",
+            "title": "Korunka z patentu",
             "type": "Korunka - chlapec",
-            "description": "Korunka z patentu pre chlapčeka parížsko modrej farby vhodná do chladnejšieho počasia. Korunka Kristián - béžová farba, Korunka Roman - karamelová farba, Korunka Daniel - fialová farba, Korunka Viliam - parížska modrá farba,  Korunka Jakub - mätová farba. Zloženie: patent: 97% bavlna,3% elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1892_300x300.jpeg",
+            "description": "Korunka z patentu pre chlapčeka vhodná do chladnejšieho počasia. Korunka Kristián - béžová farba, Korunka Roman - karamelová farba, Korunka Daniel - fialová farba, Korunka Viliam - parížska modrá farba,  Korunka Jakub - mätová farba. Zloženie: patent: 97% bavlna,3% elastan.",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2318_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1892_800x800.jpeg",
+                "/assets/products/jpg/IMG_2318_800x800.jpeg",
                 "/assets/products/jpg/IMG_1313.jpg",
                 "/assets/products/jpg/IMG_1990_800x800.jpeg"
             ],
@@ -696,625 +758,873 @@
             "category": "Chlapček"
         },
         {
-            "title": "Čiapka s uškami z rebrovaného úpletu Silvester",
+            "title": "Jednovrstová čiapka z rebrovaného úpletu",
             "type": "Čiapka - chlapec",
-            "description": "Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrik - sivá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Silvester - béžová farba. Zloženie: úplet: 95% bavlna, 5% elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1887_300x300.jpeg",
+            "description": "Jednovrstvová čiapka z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2305_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1887_800x800.jpeg",
-                "/assets/products/jpg/IMG_1319.jpg",
-                "/assets/products/jpg/IMG_1988_800x800.jpeg"
+                "/assets/products/jpg/IMG_2305_800x800.jpeg",
+                "/assets/products/jpg/IMG_2625_800x800.jpeg"
             ],
-            "price": "€5.90",
+            "price": "€6.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Jednovrstová čiapka s uškami z rebrovaného úpletu",
+            "type": "Čiapka - chlapec",
+            "description": "Jednovrstvová čiapka s uškami z rebrovaného úpletu vhodná na jesenné dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2288_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2288_800x800.jpeg",
+                "/assets/products/jpg/IMG_2625_800x800.jpeg"
+            ],
+            "price": "€6.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Dvojvrstvová čiapka z rebrovaného úpletu",
+            "type": "Čiapka - chlapec",
+            "description": "Dvojvrstvová čiapka z rebrovaného úpletu vhodná na chladnejšie dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2505_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2505_800x800.jpeg",
+                "/assets/products/jpg/IMG_2625_800x800.jpeg"
+            ],
+            "price": "€7.90",
+            "category": "Chlapček"
+        },
+        {
+            "title": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu",
+            "type": "Čiapka - chlapec",
+            "description": "Dvojvrstvová čiapka s uškami z rebrovaného úpletu vhodná na chladnejšie dni. Čiapka Patrícia - sivá farba, Čiapka Zoja - ružová farba, Čiapka Silvia - béžová farba, Čiapka Elena - magenta farba, Čiapka Zdenko - zemitá farba, Čiapka Tobiáš - smaragdová farba, Čiapka Gabriel - baby blue farba, Čiapka Július - karamelová farba. Zloženie: úplet: 95% bavlna, 5 % elastan.  ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2506_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2506_800x800.jpeg",
+                "/assets/products/jpg/IMG_2625_800x800.jpeg"
+            ],
+            "price": "€7.90",
             "category": "Chlapček"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Esme",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov azúrovej farby. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: satén: 100% PES.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1865_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2266_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1865_800x800.jpeg",
+                "/assets/products/jpg/IMG_2266_800x800.jpeg",
                 "/assets/products/jpg/IMG_1454.jpg",
                 "/assets/products/jpg/IMG_1598.jpg",
                 "/assets/products/jpg/IMG_1627.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Mia",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov cyklaménovej farby. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: satén: 100% PES",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1870_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2323_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1870_800x800.jpeg",
+                "/assets/products/jpg/IMG_2323_800x800.jpeg",
                 "/assets/products/jpg/IMG_1456.jpg",
                 "/assets/products/jpg/IMG_1627.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Bella",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov tmavoružovej farby. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: satén: 100% PES.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1873_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2309_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1873_800x800.jpeg",
+                "/assets/products/jpg/IMG_2309_800x800.jpeg",
                 "/assets/products/jpg/IMG_1461.jpg",
                 "/assets/products/jpg/IMG_1599.jpg",
                 "/assets/products/jpg/3DCE8FEE-E8BE-4625-A31E-5DEE6DA83961.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Luna",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov zlatej farby. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: satén: 100% PES.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1857_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2366_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1857_800x800.jpeg",
+                "/assets/products/jpg/IMG_2366_800x800.jpeg",
                 "/assets/products/jpg/IMG_1458.jpg",
                 "/assets/products/jpg/IMG_1627.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Ava",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov staroružovej farby. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: satén: 100% PES.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1861_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2262_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1861_800x800.jpeg",
+                "/assets/products/jpg/IMG_2262_800x800.jpeg",
                 "/assets/products/jpg/IMG_1460.jpg",
                 "/assets/products/jpg/3DCE8FEE-E8BE-4625-A31E-5DEE6DA83961.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Lara",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov tyrkysovej farby. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: satén: 100% PES.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1867_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2312_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1867_800x800.jpeg",
+                "/assets/products/jpg/IMG_2312_800x800.jpeg",
                 "/assets/products/jpg/IMG_1457.jpg",
                 "/assets/products/jpg/IMG_1600.jpg",
                 "/assets/products/jpg/IMG_1627.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Aurora",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov sýtožltej farby. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: satén: 100% PES.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2029_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2294_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2029_800x800.jpeg",
+                "/assets/products/jpg/IMG_2294_800x800.jpeg",
                 "/assets/products/jpg/IMG_1459.jpg",
                 "/assets/products/jpg/IMG_1601.jpg",
                 "/assets/products/jpg/3DCE8FEE-E8BE-4625-A31E-5DEE6DA83961.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Charlotte",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov červenej farby. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: satén: 100% PES.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1876_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2310_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1876_800x800.jpeg",
+                "/assets/products/jpg/IMG_2310_800x800.jpeg",
                 "/assets/products/jpg/IMG_1462.jpg",
                 "/assets/products/jpg/IMG_1627.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Adriána",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov so vzormi slovenskej modrotlače. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: teplákovina: 95% bavlna,5% elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2023_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2316_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2023_800x800.jpeg",
+                "/assets/products/jpg/IMG_2316_800x800.jpeg",
                 "/assets/products/jpg/IMG_1683.HEIC.jpg",
                 "/assets/products/jpg/IMG_1645.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Beáta",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov staroružovej farby so slovenskými vzormi. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: teplákovina: 95% bavlna,5% elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1881_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2365_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1881_800x800.jpeg",
+                "/assets/products/jpg/IMG_2365_800x800.jpeg",
                 "/assets/products/jpg/IMG_1662.jpg",
                 "/assets/products/jpg/IMG_1645.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Martina",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov s pestrofarebnými trojuholníkmi. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: úplet: 96% bavlna,4% elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1852_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2264_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1852_800x800.jpeg",
+                "/assets/products/jpg/IMG_2264_800x800.jpeg",
                 "/assets/products/jpg/IMG_1650.jpg",
                 "/assets/products/jpg/IMG_1645.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Sára",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov s bohatými vzormi kvetov. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: úplet: 95% bavlna,5% elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1879_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2260_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1879_800x800.jpeg",
+                "/assets/products/jpg/IMG_2260_800x800.jpeg",
                 "/assets/products/jpg/IMG_1653.jpg",
                 "/assets/products/jpg/IMG_1645.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Viktória",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov so vzormi exotických kvetov. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: úplet: 95% bavlna,5% elastan.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1955_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2248_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1955_800x800.jpeg",
+                "/assets/products/jpg/IMG_2248_800x800.jpeg",
                 "/assets/products/jpg/IMG_1656.jpg",
                 "/assets/products/jpg/IMG_1645.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Gumička do vlasov/ scrunchie Lea",
             "type": "Gumička do vlasov/ scrunchie",
             "description": "Gumička do vlasov so vzormi poľných kvetov. Gumičku možno nosiť s alebo bez chvostíka. Zloženie: úplet: 95% bavlna,5% elastan. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2031_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2245_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2031_800x800.jpeg",
+                "/assets/products/jpg/IMG_2245_800x800.jpeg",
                 "/assets/products/jpg/IMG_1659.jpg",
                 "/assets/products/jpg/IMG_1645.jpg"
 
             ],
-            "price": "€3.00",
+            "price": "€3.90",
+            "category": "Žena"
+        },
+        {
+            "title": "Gumička do vlasov/ scrunchie - mušelín - Aisha, Alice, Celeste, Daisy, Frida, Gia, Laila, Margo",
+            "type": "Gumička do vlasov/ scrunchie",
+            "description": "Gumička do vlasov z mušelínu. Gumičku možno nosiť s alebo bez chvostíka. Scrunchie Aisha - žltá farba, Scrunchie Alice - svetloružová farba, Scrunchie Celesta - smaragdová farba, Scrunchie Daisy - sýto ružová farba, Scrunchie Frida - biela farba, Scrunchie Gia - lososová farba, Scrunchie Laila - zlatá farba, Scrunchie Margo - baby blue farba. Zloženie: 100% bavlna ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2509_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2509_800x800.jpeg",
+                "/assets/products/jpg/IMG_1987_800x800.jpeg"
+
+            ],
+            "price": "€3.90",
             "category": "Žena"
         },
         {
             "title": "Mini čelenka Esme",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke azúrovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1866_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2326_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1866_800x800.jpeg",
+                "/assets/products/jpg/IMG_2326_800x800.jpeg",
                 "/assets/products/jpg/IMG_1618.jpg",
                 "/assets/products/jpg/IMG_1628.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Mia",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke cyklaménovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1871_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2300_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1871_800x800.jpeg",
+                "/assets/products/jpg/IMG_2300_800x800.jpeg",
                 "/assets/products/jpg/IMG_1621.jpg",
                 "/assets/products/jpg/IMG_1628.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Bella",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke tmavoružovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1874_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2289_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1874_800x800.jpeg",
+                "/assets/products/jpg/IMG_2289_800x800.jpeg",
                 "/assets/products/jpg/IMG_1623.jpg",
                 "/assets/products/jpg/IMG_1628.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Luna",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke zlatej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1859_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2269_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1859_800x800.jpeg",
+                "/assets/products/jpg/IMG_2269_800x800.jpeg",
                 "/assets/products/jpg/IMG_1624.jpg",
                 "/assets/products/jpg/IMG_1628.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Ava",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke staroružovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1862_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2329_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1862_800x800.jpeg",
+                "/assets/products/jpg/IMG_2329_800x800.jpeg",
                 "/assets/products/jpg/IMG_1620.jpg",
                 "/assets/products/jpg/IMG_1628.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Lara",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke tyrkysovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1868_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2324_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1868_800x800.jpeg",
+                "/assets/products/jpg/IMG_2324_800x800.jpeg",
                 "/assets/products/jpg/IMG_1619.jpg",
                 "/assets/products/jpg/IMG_1628.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Aurora",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke sýto žltej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2030_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2277_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2030_800x800.jpeg",
+                "/assets/products/jpg/IMG_2277_800x800.jpeg",
                 "/assets/products/jpg/IMG_1622.jpg",
                 "/assets/products/jpg/IMG_1628.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Charlotte",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke červenej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1877_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2293_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1877_800x800.jpeg",
+                "/assets/products/jpg/IMG_2293_800x800.jpeg",
                 "/assets/products/jpg/IMG_1638.jpg",
                 "/assets/products/jpg/IMG_1628.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Adriána",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke so vzormi slovenskej modrotlače. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: teplákovina: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2024_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2284_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2024_800x800.jpeg",
+                "/assets/products/jpg/IMG_2284_800x800.jpeg",
                 "/assets/products/jpg/IMG_1527.jpg",
                 "/assets/products/jpg/IMG_1644.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Beáta",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke staroružovej farby so slovenskými vzormi. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: teplákovina: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1883_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2285_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1883_800x800.jpeg",
+                "/assets/products/jpg/IMG_2285_800x800.jpeg",
                 "/assets/products/jpg/IMG_1665.jpg",
                 "/assets/products/jpg/IMG_1644.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Martina",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke s pestrofarebnými trojuholníkmi. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: úplet: 96% bavlna,4% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1669.jpg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2507_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1669.jpg",
+                "/assets/products/jpg/IMG_2507_800x800.jpeg",
                 "/assets/products/jpg/IMG_1644.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Sára",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke s bohatými vzormi kvetov. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: úplet: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1880_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2321_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1880_800x800.jpeg",
+                "/assets/products/jpg/IMG_2321_800x800.jpeg",
                 "/assets/products/jpg/IMG_1668.jpg",
                 "/assets/products/jpg/IMG_1644.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Viktória",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke so vzormi exotických kvetov. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: úplet: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1957_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2244_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1957_800x800.jpeg",
+                "/assets/products/jpg/IMG_2244_800x800.jpeg",
                 "/assets/products/jpg/IMG_1667.jpg",
                 "/assets/products/jpg/IMG_1644.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Mini čelenka Lea",
             "type": "Čelenka - dievča",
             "description": "Mini čelenka na nylónovej gumičke so vzormi poľných kvetov. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: úplet: 95% bavlna,5% elastan, nylonóvá gumička",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2033_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2230_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2033_800x800.jpeg",
+                "/assets/products/jpg/IMG_2230_800x800.jpeg",
                 "/assets/products/jpg/IMG_1666.jpg",
                 "/assets/products/jpg/IMG_1644.jpg"
 
             ],
-            "price": "€2.50",
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Alexandra",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka na nylónovej gumičke bielej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Mini čelenka Gréta - tmavobéžová farba, Mini čelenka Emily - svetlobéžová farba, Mini čelenka Alexandra - biela farba, Mini čelenka Veronika - cyklaménová farba, Mini čelenka Diana - svetloružová farba, Mini čelenka - mango farba, Mini čelenka Radoslava - fialová farba, Mini čelenka Denisa - červená farba. Zloženie: úplet: 95% bavlna,5% elastan, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2265_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2265_800x800.jpeg",
+                "/assets/products/jpg/IMG_1993_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Svetlana",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z úpletu na nylónovej gumičke bielej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Mini čelenka Svetlana - biela farba, Mini čelenka Natália - béžová farba, Mini čelenka Nela - ružová farba, Mini čelenka Timea - karamelová farba. Zloženie: úplet: 95% bavlna,5% elastan, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2478_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2478_800x800.jpeg",
+                "/assets/products/jpg/IMG_2626_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Aisha",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z mušelínu na nylónovej gumičke žltej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2448_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2448_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Alice",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z mušelínu na nylónovej gumičke svetlo ružovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2437_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2437_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Daisy",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z mušelínu na nylónovej gumičke sýto ružovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2438_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2438_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Celeste",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z mušelínu na nylónovej gumičke smaragdovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2436_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2436_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Frida",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z mušelínu na nylónovej gumičke bielej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2112_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2112_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Gia",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z mušelínu na nylónovej gumičke lososovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2442_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2442_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Laila",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z mušelínu na nylónovej gumičke zlatej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2445_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2445_800x800.jpeg"
+            ],
+            "price": "€3.00",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Mini čelenka Margo",
+            "type": "Čelenka - dievča",
+            "description": "Mini čelenka z mušelínu na nylónovej gumičke baby blue farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2452_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2452_800x800.jpeg"
+            ],
+            "price": "€3.00",
             "category": "Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Esme",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov azúrovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1864_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2308_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1864_800x800.jpeg",
+                "/assets/products/jpg/IMG_2308_800x800.jpeg",
                 "/assets/products/jpg/IMG_1613.jpg",
                 "/assets/products/jpg/IMG_1636.jpg",
                 "/assets/products/jpg/IMG_1602.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Mia",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov cyklaménovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1869_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2363_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1869_800x800.jpeg",
+                "/assets/products/jpg/IMG_2363_800x800.jpeg",
                 "/assets/products/jpg/IMG_1605.jpg",
                 "/assets/products/jpg/IMG_1632.jpg",
                 "/assets/products/jpg/IMG_1602.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Bella",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov tmavoružovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1872_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2275_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1872_800x800.jpeg",
+                "/assets/products/jpg/IMG_2275_800x800.jpeg",
                 "/assets/products/jpg/IMG_1603.jpg",
                 "/assets/products/jpg/IMG_1633.jpg",
                 "/assets/products/jpg/IMG_1602.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Luna",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov zlatej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1858_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2274_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1858_800x800.jpeg",
+                "/assets/products/jpg/IMG_2274_800x800.jpeg",
                 "/assets/products/jpg/IMG_1609.jpg",
                 "/assets/products/jpg/IMG_1635.jpg",
                 "/assets/products/jpg/IMG_1602.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Ava",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov staroružovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1860_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2261_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1860_800x800.jpeg",
+                "/assets/products/jpg/IMG_2261_800x800.jpeg",
                 "/assets/products/jpg/IMG_1607.jpg",
                 "/assets/products/jpg/IMG_1629.jpg",
                 "/assets/products/jpg/IMG_1602.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Lara",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov tyrkysovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1615.jpg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2508_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1615.jpg",
+                "/assets/products/jpg/IMG_2508_800x800.jpeg",
                 "/assets/products/jpg/IMG_1631.jpg",
                 "/assets/products/jpg/IMG_1602.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Aurora",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov sýto žltej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2027_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2270_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2027_800x800.jpeg",
+                "/assets/products/jpg/IMG_2270_800x800.jpeg",
                 "/assets/products/jpg/IMG_1611.jpg",
                 "/assets/products/jpg/IMG_1634.jpg",
                 "/assets/products/jpg/IMG_1602.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Charlotte",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov červenej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: satén: 100% PES, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1875_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2273_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1875_800x800.jpeg",
+                "/assets/products/jpg/IMG_2273_800x800.jpeg",
                 "/assets/products/jpg/IMG_1639.jpg",
                 "/assets/products/jpg/IMG_1641.jpg",
                 "/assets/products/jpg/IMG_1602.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Adriána",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov so vzormi slovenskej modrotlače. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: teplákovina: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2022_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2296_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2022_800x800.jpeg",
+                "/assets/products/jpg/IMG_2296_800x800.jpeg",
                 "/assets/products/jpg/IMG_1648.jpg",
                 "/assets/products/jpg/IMG_1646.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Beáta",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov staroružovej farby so slovenskými vzormi. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: teplákovina: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1882_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2257_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1882_800x800.jpeg",
+                "/assets/products/jpg/IMG_2257_800x800.jpeg",
                 "/assets/products/jpg/IMG_1663.jpg",
                 "/assets/products/jpg/IMG_1646.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Martina",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov s pestrofarebnými trojuholníkmi. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: úplet: 96% bavlna,4% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1851_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2259_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1851_800x800.jpeg",
+                "/assets/products/jpg/IMG_2259_800x800.jpeg",
                 "/assets/products/jpg/IMG_1651.jpg",
                 "/assets/products/jpg/IMG_1646.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Sára",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov s bohatými vzormi kvetov. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: úplet: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1878_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2295_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1878_800x800.jpeg",
+                "/assets/products/jpg/IMG_2295_800x800.jpeg",
                 "/assets/products/jpg/IMG_1654.jpg",
                 "/assets/products/jpg/IMG_1646.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Viktória",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov so vzormi exotických kvetov. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: úplet: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_1956_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2317_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_1956_800x800.jpeg",
+                "/assets/products/jpg/IMG_2317_800x800.jpeg",
                 "/assets/products/jpg/IMG_1657.jpg",
                 "/assets/products/jpg/IMG_1646.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Set scrunchie + mini čelenka Lea",
             "type": "Set",
             "description": "Set mini čelenky na nylónovej gumičke a gumičky do vlasov so vzormi poľných kvetov. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: úplet: 95% bavlna,5% elastan, nylonóvá gumička ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2032_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2268_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2032_800x800.jpeg",
+                "/assets/products/jpg/IMG_2268_800x800.jpeg",
                 "/assets/products/jpg/IMG_1661.jpg",
                 "/assets/products/jpg/IMG_1659.jpg",
                 "/assets/products/jpg/IMG_1666.jpg",
                 "/assets/products/jpg/IMG_1646.jpg"
 
             ],
-            "price": "€5.00",
+            "price": "€6.50",
+            "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Set scrunchie + mini čelenka Aisha",
+            "type": "Set",
+            "description": "Set mini čelenky z mušelínu na nylónovej gumičke a gumičky do vlasov z mušelínu žltej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2447_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2447_800x800.jpeg"
+            ],
+            "price": "€6.50",
+            "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Set scrunchie + mini čelenka Alice",
+            "type": "Set",
+            "description": "Set mini čelenky z mušelínu na nylónovej gumičke a gumičky do vlasov z mušelínu svetloružovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2439_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2439_800x800.jpeg"
+            ],
+            "price": "€6.50",
+            "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Set scrunchie + mini čelenka Daisy",
+            "type": "Set",
+            "description": "Set mini čelenky z mušelínu na nylónovej gumičke a gumičky do vlasov z mušelínu sýto ružovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2435_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2435_800x800.jpeg"
+            ],
+            "price": "€6.50",
+            "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Set scrunchie + mini čelenka Celeste",
+            "type": "Set",
+            "description": "Set mini čelenky z mušelínu na nylónovej gumičke a gumičky do vlasov z mušelínu smaragdovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2444_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2444_800x800.jpeg"
+            ],
+            "price": "€6.50",
+            "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Set scrunchie + mini čelenka Frida",
+            "type": "Set",
+            "description": "Set mini čelenky z mušelínu na nylónovej gumičke a gumičky do vlasov z mušelínu bielej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2446_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2446_800x800.jpeg"
+            ],
+            "price": "€6.50",
+            "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Set scrunchie + mini čelenka Gia",
+            "type": "Set",
+            "description": "Set mini čelenky z mušelínu na nylónovej gumičke a gumičky do vlasov z mušelínu lososovej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2450_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2450_800x800.jpeg"
+            ],
+            "price": "€6.50",
+            "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Set scrunchie + mini čelenka Laila",
+            "type": "Set",
+            "description": "Set mini čelenky z mušelínu na nylónovej gumičke a gumičky do vlasov z mušelínu zlatej farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2441_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2441_800x800.jpeg"
+            ],
+            "price": "€6.50",
+            "category": "Mama&Dcéra"
+        },
+        {
+            "title": "Set scrunchie + mini čelenka Margo",
+            "type": "Set",
+            "description": "Set mini čelenky z mušelínu na nylónovej gumičke a gumičky do vlasov z mušelínu baby blue farby. Nylonová gumička sa dokonale prispôsobí každej hlávke, je jemná a príjemná aj pre najmenšie bábätká. Nylonová gumička rôznych farieb - podľa preferencie. Zloženie: 100% bavlna, nylonóvá gumička ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2451_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2451_800x800.jpeg"
+            ],
+            "price": "€6.50",
             "category": "Mama&Dcéra"
         },
         {
             "title": "Čelenka Svetlana",
             "type": "Čelenka - dievča",
             "description": "Čelenka bielej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2006_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2460_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2006_800x800.jpeg",
+                "/assets/products/jpg/IMG_2460_800x800.jpeg",
                 "/assets/products/jpg/IMG_2037_800x800.jpeg"
 
             ],
@@ -1325,9 +1635,9 @@
             "title": "Čelenka Nela",
             "type": "Čelenka - dievča",
             "description": "Čelenka púdrovo ružovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2014_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2476_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2014_800x800.jpeg",
+                "/assets/products/jpg/IMG_2476_800x800.jpeg",
                 "/assets/products/jpg/IMG_2037_800x800.jpeg"
 
             ],
@@ -1338,9 +1648,9 @@
             "title": "Čelenka Natália",
             "type": "Čelenka - dievča",
             "description": "Čelenka béžovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2012_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2474_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2012_800x800.jpeg",
+                "/assets/products/jpg/IMG_2474_800x800.jpeg",
                 "/assets/products/jpg/IMG_2037_800x800.jpeg"
 
             ],
@@ -1351,9 +1661,9 @@
             "title": "Čelenka Timea",
             "type": "Čelenka - dievča",
             "description": "Čelenka karamelovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2040_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2456_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2040_800x800.jpeg",
+                "/assets/products/jpg/IMG_2456_800x800.jpeg",
                 "/assets/products/jpg/IMG_2037_800x800.jpeg"
 
             ],
@@ -1364,9 +1674,9 @@
             "title": "Čelenka + dievčenské nohavičky Svetlana",
             "type": "Čelenka - dievča",
             "description": "Set čelenky a dievčenských nohavičiek bielej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2005_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2459_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2005_800x800.jpeg",
+                "/assets/products/jpg/IMG_2459_800x800.jpeg",
                 "/assets/products/jpg/IMG_2038_800x800.jpeg",
                 "/assets/products/jpg/IMG_2039_800x800.jpeg"
 
@@ -1378,9 +1688,9 @@
             "title": "Čelenka + dievčenské nohavičky Nela",
             "type": "Čelenka - dievča",
             "description": "Set čelenky a dievčenských nohavičiek púdrovo ružovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2013_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2475_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2013_800x800.jpeg",
+                "/assets/products/jpg/IMG_2475_800x800.jpeg",
                 "/assets/products/jpg/IMG_1847_800x800.jpeg",
                 "/assets/products/jpg/IMG_1848_800x800.jpeg"
 
@@ -1392,9 +1702,9 @@
             "title": "Čelenka + dievčenské nohavičky Natália",
             "type": "Čelenka - dievča",
             "description": "Set čelenky a dievčenských nohavičiek béžovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2011_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2473_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2011_800x800.jpeg",
+                "/assets/products/jpg/IMG_2473_800x800.jpeg",
                 "/assets/products/jpg/IMG_1845_800x800.jpeg",
                 "/assets/products/jpg/IMG_1846_800x800.jpeg"
 
@@ -1406,9 +1716,9 @@
             "title": "Čelenka + dievčenské nohavičky Timea",
             "type": "Čelenka - dievča",
             "description": "Set čelenky a dievčenských nohavičiek karamelovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2009_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2471_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2009_800x800.jpeg",
+                "/assets/products/jpg/IMG_2471_800x800.jpeg",
                 "/assets/products/jpg/IMG_1843_800x800.jpeg",
                 "/assets/products/jpg/IMG_1844_800x800.jpeg"
 
@@ -1420,9 +1730,9 @@
             "title": "Turban Svetlana",
             "type": "Turban",
             "description": "Jednovrstvový turban bielej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2007_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2469_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2007_800x800.jpeg",
+                "/assets/products/jpg/IMG_2469_800x800.jpeg",
                 "/assets/products/jpg/IMG_2035_800x800.jpeg"
                 
 
@@ -1434,9 +1744,9 @@
             "title": "Turban Nela",
             "type": "Turban",
             "description": "Jednovrstvový turban púdrovo ružovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2015_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2113_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2015_800x800.jpeg",
+                "/assets/products/jpg/IMG_2113_800x800.jpeg",
                 "/assets/products/jpg/IMG_2035_800x800.jpeg"
                 
 
@@ -1448,9 +1758,9 @@
             "title": "Turban Natália",
             "type": "Turban",
             "description": "Jednovrstvový turban béžovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2010_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2472_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2010_800x800.jpeg",
+                "/assets/products/jpg/IMG_2472_800x800.jpeg",
                 "/assets/products/jpg/IMG_2035_800x800.jpeg"
                 
 
@@ -1462,15 +1772,37 @@
             "title": "Turban Timea",
             "type": "Turban",
             "description": "Jednovrstvový turban karamelovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2008_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2470_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2008_800x800.jpeg",
+                "/assets/products/jpg/IMG_2470_800x800.jpeg",
                 "/assets/products/jpg/IMG_2035_800x800.jpeg"
                 
 
             ],
             "price": "€6.90",
             "category": "Dcéra"
-        }       
+        },
+        {
+            "title": "Turban Klaudia",
+            "type": "Turban",
+            "description": "Jednovrstvový turban horčicovej farby z príjemného úpletu. Zloženie: úplet: 95% bavlna,5% elastan",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2455_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2455_800x800.jpeg"
+            ],
+            "price": "€6.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Turban s mašľou z úpletu - Svetlana, Nela, Natália, Timea",
+            "type": "Turban",
+            "description": "Jednovrstvový turban s mašlou z príjemného úpletu. Turban je možné nosiť s mašličkou alebo bez mašličky. Turban s mašľou Svetlana - biela farba, Turban s mašľou Natália - béžová farba, Turban s mašľou Nela - ružová farba, Turban s mašľou Timea - karamelová farba. Zloženie: úplet: 95% bavlna,5% elastan",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2449_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2449_800x800.jpeg"
+            ],
+            "price": "€6.90",
+            "category": "Dcéra"
+        }     
     ]
 }
