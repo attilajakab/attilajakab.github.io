@@ -91,9 +91,9 @@
             "title": "Turban Alexandra",
             "type": "Turban",
             "description": "Jednovrstvový turban s mašličkou bielej farby vhodný na jar či leto. Zloženie: úplet: 95% bavlna,5% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky. ",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2231_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2535_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2231_800x800.jpeg",
+                "/assets/products/jpg/IMG_2535_800x800.jpeg",
                 "/assets/products/jpg/IMG_0671.jpg"
             ],
             "price": "€6.90",
@@ -245,9 +245,9 @@
             "title": "Turban Kristína",
             "type": "Turban",
             "description": "Béžový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2254_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2742_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2254_800x800.jpeg",
+                "/assets/products/jpg/IMG_2742_800x800.jpeg",
                 "/assets/products/jpg/IMG_0673.jpg"
             ],
             "price": "€6.90",
@@ -296,10 +296,28 @@
             "title": "Turban Ema",
             "type": "Turban",
             "description": "Púdrovo ružový jednovrstvový turban vhodný na chladnejšie dni. Zloženie: patent: 97% bavlna,3% elastan. Turban je možné nosiť s mašličkou alebo bez mašličky.",
-            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2325_300x300.jpeg",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2534_300x300.jpeg",
             "imgPath": [
-                "/assets/products/jpg/IMG_2325_800x800.jpeg",
+                "/assets/products/jpg/IMG_2534_800x800.jpeg",
                 "/assets/products/jpg/IMG_0669.jpg"
+            ],
+            "price": "€6.90",
+            "category": "Dcéra"
+        },
+        {
+            "title": "Turban Juliána",
+            "type": "Turban",
+            "description": "Jednovrstvový turban rôznych farieb. Turban Patrícia - sivá farba, Turban Zoja - ružová farba, Turban Silvia - béžová farba, Turban Elena - magenta farba, Turban Zdenka - zemitá farba, Turban Táňa - smaragdová farba, Turban Gabriela - baby blue farba, Turban Juliána - karamelová farba. Zloženie: úplet: 95% bavlna,5% elastan. ",
+            "imgThumbPath": "/assets/products/jpg/thumb/IMG_2729_300x300.jpeg",
+            "imgPath": [
+                "/assets/products/jpg/IMG_2729_800x800.jpeg",
+                "/assets/products/jpg/IMG_2794_800x800.jpeg",
+                "/assets/products/jpg/IMG_2793_800x800.jpeg",
+                "/assets/products/jpg/IMG_2791_800x800.jpeg",
+                "/assets/products/jpg/IMG_2790_800x800.jpeg",
+                "/assets/products/jpg/IMG_2788_800x800.jpeg",
+                "/assets/products/jpg/IMG_2784_800x800.jpeg",
+                "/assets/products/jpg/IMG_2785_800x800.jpeg"    
             ],
             "price": "€6.90",
             "category": "Dcéra"
@@ -735,7 +753,6 @@
             "imgThumbPath": "/assets/products/jpg/thumb/IMG_2272_300x300.jpeg",
             "imgPath": [
                 "/assets/products/jpg/IMG_2272_800x800.jpeg",
-                "/assets/products/jpg/IMG_1323.jpg",
                 "/assets/products/jpg/IMG_1998_800x800.jpeg"
             ],
             "price": "€4.90",
