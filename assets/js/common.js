@@ -70,6 +70,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 }
             }).then(response => {
                 if (response.status === 200) {
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({'event': 'form_submit'});
                     alert('Objednávka úspešne odoslaná!')
                 } else {
                     alert('Niečo sa pokazilo, kontaktuje nás prosím na celenka.moda@gmail.com.');
